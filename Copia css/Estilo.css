@@ -1,0 +1,310 @@
+@font-face{
+    font-family: Asushin;
+    src: url('../Resources/Typo/CampanaScript_PERSONAL_USE_ONLY.otf');
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Bree+Serif&display=swap" rel="stylesheet"');
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Alegreya+Sans+SC", sans-serif;
+    box-sizing: border-box
+}
+
+
+/* Formato palabra Asushin en Index */
+
+
+/* .texto p{
+    font-family: Asushin;
+    font-size: 100px;
+    text-align: center;
+    border: solid 4px;
+    width: 280px;
+    margin-left: 600px;
+    margin-top: 20px;
+} */
+
+
+/* Formato UL  SIN BULLETS */
+
+
+h1{
+
+text-align: center;
+margin-top: 20px;
+
+}
+
+.parrafolinks{
+    list-style-type: none;
+    border: solid;
+    width: 150px
+
+}
+
+.parrafolinks{
+
+margin-left: 80px;
+
+
+
+
+}
+
+
+/* FORMATO DIV LI */
+
+
+div li {
+    display: block;
+    align-content: center;
+    height: fit-content;
+}
+
+
+div li a {
+    color: brown;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+
+
+}
+
+
+div p {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+/* Tamaño primera imagen */
+.imagen1{
+    width:  350px;
+    height: 350px;
+    border: solid;
+
+}
+
+/* Tamaño segunda imagen */
+.imagen2{
+    width:  350px;
+    height: 350px;
+    border: solid;
+}
+
+
+    /* titulo primer encuentro */
+
+.tituloprimerencuentro{
+
+text-align: center;
+    
+}
+
+
+.cuadroimagenesgrid{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    font-family: sans-serif;
+    
+
+}
+/* Formato Grid flex */
+.cuadroimagenesgrid div{
+    border-radius: 15px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    padding: 10px;
+    grid-auto-rows: auto;
+}
+
+.cuadroimagenesgrid div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.button{
+    padding: 5px 15px;
+    margin: 15px;
+    border-radius: 15px;
+    background-color: #39145c;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+.parrafoprimerencuentro{
+margin-left: 50px;
+
+}
+
+.bodyhistoria{
+
+    background-color: #9bbbcab9;
+
+
+}
+
+/* Estilo de Navbar */
+
+
+
+.navbar {
+    background-color: black;
+}
+
+.navbar-text,
+.navbar-brand,
+.nav-link {
+color: #fff; 
+}
+
+.nav-link:hover {
+
+color: white;
+
+}
+
+.dropdown-item{
+    background-color: black;
+    color: #fff;
+}
+
+
+
+.imagenestitulos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    
+    }
+
+
+
+
+
+
+
+.cuadrotextoimagen img{
+    height: 500px;
+}
+
+
+
+
+.cuadrotextoimagen h3{
+    font-family: "Bree+Serif", serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+    
+
+}
+
+.cuadrotextoimagen{
+display: flex;
+flex-direction: column;
+align-items: center;
+font-family: 'Courier New', Courier, monospace;
+border: solid 4px;
+border-radius: 20px;
+padding: 20px;
+margin: 20px;  
+}
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA RESPONSIVE */
+
+@media (min-width:992px){
+
+
+
+        
+        .texto p{
+            font-family: Asushin;
+            font-size: 100px;
+            text-align: center;
+            border: solid 4px;
+            width: 280px;
+            margin-left: 600px;
+            margin-top: 20px;
+        }    
+    
+/* titulo historia  */
+
+.titulohistoria{
+
+
+    
+}
+
+
+
+}
+
+
+@media (max-width:991px){
+
+
+
+        
+    .texto p{
+        font-family: Asushin;
+        font-size: 70px;
+        text-align: center;
+        border: solid 4px;
+        width: 180px;
+        margin-left: 100px;
+        margin-top: 20px;
+    }    
+
+
+    .titulohistoria{
+
+        margin-right: 20px;
+    }
+
+    .cuadroimagenesgrid{
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+        font-family: sans-serif;
+        
+    
+    }
+
+
+
+}
