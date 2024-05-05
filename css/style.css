@@ -93,6 +93,47 @@ h1 {
   background-color: black;
   color: #fff; }
 
+.bodyhistoria {
+  background-color: #9bbbcab9; }
+
+.tituloprimerencuentro {
+  text-align: center; }
+
+.cuadroimagenesgrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  font-family: sans-serif; }
+
+/* Formato Grid flex */
+.cuadroimagenesgrid div {
+  border-radius: 15px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  padding: 10px;
+  grid-auto-rows: auto; }
+
+.cuadroimagenesgrid div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.button {
+  padding: 5px 15px;
+  margin: 15px;
+  border-radius: 15px;
+  background-color: #39145c;
+  color: white;
+  font-family: sans-serif; }
+
+.parrafoprimerencuentro {
+  margin-left: 50px; }
+
 @media (min-width: 992px) {
   .texto p {
     font-family: Asushin;
