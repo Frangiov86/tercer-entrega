@@ -1,0 +1,56 @@
+@media (min-width:992px){
+
+
+
+        
+    .texto p{
+        font-family: Asushin;
+        font-size: 100px;
+        text-align: center;
+        border: solid 4px;
+        width: 280px;
+        margin-left: 600px;
+        margin-top: 20px;
+    }    
+
+/* titulo historia  */
+
+
+
+}
+
+
+@media (max-width:991px){
+
+
+
+    
+.texto p{
+    font-family: Asushin;
+    font-size: 70px;
+    text-align: center;
+    border: solid 4px;
+    width: 180px;
+    margin-left: 100px;
+    margin-top: 20px;
+}    
+
+
+.titulohistoria{
+
+    margin-right: 20px;
+}
+
+.cuadroimagenesgrid{
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    font-family: sans-serif;
+    
+
+}
+
+}

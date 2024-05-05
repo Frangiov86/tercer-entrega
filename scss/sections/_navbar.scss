@@ -1,0 +1,24 @@
+/* Estilo de Navbar */
+
+
+
+.navbar {
+    background-color: black;
+}
+
+.navbar-text,
+.navbar-brand,
+.nav-link {
+color: #fff; 
+}
+
+.nav-link:hover {
+
+color: white;
+
+}
+
+.dropdown-item{
+    background-color: black;
+    color: #fff;
+}

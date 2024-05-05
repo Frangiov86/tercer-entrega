@@ -1,0 +1,40 @@
+.imagenestitulos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    
+    }
+
+    .cuadrotextoimagen img{
+        height: 500px;
+    }
+    
+    h1{
+
+        text-align: center;
+        margin-top: 20px;
+        
+        }
+    
+    
+    .cuadrotextoimagen h3{
+        font-family: "Bree+Serif", serif;
+        font-size: 30px;
+        margin-bottom: 30px;
+        
+    
+    }
+    
+    .cuadrotextoimagen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid 4px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;  
+    }

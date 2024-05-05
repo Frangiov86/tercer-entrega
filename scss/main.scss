@@ -1,1 +1,12 @@
+@import './utilities/colors';
+@import './utilities/fonts';
 @import './utilities/reset';
+
+// Secciones
+
+@import './sections/div';
+@import './sections/imagenesindex';
+@import './sections/imagenestitulospersonajes';
+@import './sections/navbar';
+
+@import './sections/mediaresponsive';
