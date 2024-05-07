@@ -1,6 +1,13 @@
 @media (min-width:992px){
 
 
+    .parrafomanga{
+        p{
+            margin-left: 80px;
+            margin-right: 80px;
+        }
+    }
+
 
         
     .texto p{
@@ -13,8 +20,13 @@
         margin-top: 20px;
     }    
 
-/* titulo historia  */
 
+.imagenmanga1993 img{
+    &:hover{
+    transform: translateX(190px) scale(200%);
+    transition: 0.3s;
+}
+}
 
 
 }
@@ -53,4 +65,191 @@
 
 }
 
+.resumeneventos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    }
+
+
+
 }
+
+
+@media (max-width:990px){
+
+    .imagenmanga1993{
+        &:hover{
+        transform: translateX(190px) scale(200%);
+        transition: 0.3s;
+    }
+    }
+
+    .parraforesumen{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .imagenmanga1993{
+        height: 450px;
+        margin-left: 180px;
+
+    }
+
+    .imagenmanga{
+        
+        p{
+            margin-top: 12px;
+            font-size: 18px;
+            margin-left: 70px;
+        }
+    }
+
+    .imagenmanga1993-2{
+        &:hover{
+        transform: translateX(190px) scale(200%);
+        transition: 0.3s;
+    }
+    }
+    
+    .imagenmanga1993-2{
+        height: 450px;
+        margin-left: 80px;
+        border: solid
+    }
+
+    .segundoparrafo{
+
+        margin-left: 120px;
+        margin-right: 120px;
+        }
+
+        .imagenmanga1993-3{
+            height: 250px;
+            border: solid;
+            margin-left: 150px;
+
+            
+        }
+        
+        .imagenmanga1993-3{
+            &:hover{
+            transform: scale(150%);
+            transition: 0.3s;
+        }
+        } 
+
+        .imagenmanga1993-4{
+            height: 350px;
+            margin-left: 225px;
+            border: solid;
+            margin-top: 80px;
+            
+        }
+        
+        .imagenmanga1993-4{
+            &:hover{
+            transform: scale(150%);
+            transition: 0.3s;
+        }
+        }
+
+        .ultimaparte3imagenes{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            div{
+        
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 10px;
+                grid-auto-rows: auto;
+            }
+            div img{
+                width: 70%;
+                height: 100%;
+                object-fit: cover;
+                border: solid;
+        
+            }
+            }
+        
+        .parrafosobretresimagenes{
+            margin-left: 80px;
+            margin-right: 80px;
+            margin-top: 20px;
+        }
+
+        .imagenzoom1{
+            &:hover{
+            transform: scale(120%);
+            transition: 0.3s;
+        }
+        }
+        
+        .imagenzoom2{
+            &:hover{
+            transform: scale(120%);
+            transition: 0.3s;
+        }
+        }
+        
+        
+        .imagenzoom3{
+            &:hover{
+            transform: scale(120%);
+            transition: 0.3s;
+        }
+        }
+        
+        .imagenzoom4{
+            &:hover{
+            transform: scale(120%);
+            transition: 0.3s;
+        }
+        }
+
+        .ultimoparrafoconimagen{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            div{
+        
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 10px;
+                grid-auto-rows: auto;
+                p{
+                    margin-left: 120px;
+                    margin-right: 120px;
+                }
+            }
+            div img{
+                width: 70%;
+                height: 100%;
+                object-fit: cover;
+                border: solid;
+        
+            }
+            }
+
+            .ultimasdosimagenes{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                div{
+            
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 10px;
+                    grid-auto-rows: auto;
+                }
+                div img{
+                    width: 70%;
+                    height: 90%;
+                    border: solid;
+            
+                }
+                }
+
+}
+
