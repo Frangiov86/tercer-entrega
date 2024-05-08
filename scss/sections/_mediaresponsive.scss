@@ -31,6 +31,36 @@
 
 }
 
+.imagen1993-2{
+    width: 350px;
+    border: solid;
+
+}
+
+@media (max-width:1025px){
+
+    .imagen1993-2{
+        margin-left: 100px;
+                
+    }
+    
+    .pi93{
+        margin-left: 100px;
+    }
+
+
+    .portada{
+        height: 275px;
+        margin-right: 10px;
+      }
+
+}
+
+
+
+
+
+
 
 @media (max-width:991px){
 
@@ -71,185 +101,208 @@
     justify-content: space-evenly;
     }
 
+    .imagen1993{
+        width: 350px;
+        
+    
+    }
 
+    .imagen1993{
+        &:hover{
+        transform: scale(110%);
+        transition: 0.3s;
+    }
+    }
+}
+
+.flex-container{
+    display: flex;
+    border: black;
+    flex-direction: column ;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.imagen1993-2{
+    width: 350px;
+    border: solid;
 
 }
 
+.imagenanime1{
+    width: 400px;
+    margin-left: 80px;
+}
 
-@media (max-width:990px){
+.imagenanime1{
+    &:hover{
+    transform: scale(110%);
+    transition: 0.3s;
+}
+}
 
-    .imagenmanga1993{
-        &:hover{
-        transform: translateX(190px) scale(200%);
-        transition: 0.3s;
-    }
-    }
+.imagencar1{
+    width:  50%;
+    height: 50%;
+    margin-left: 300px;
+}
 
-    .parraforesumen{
-        margin-left: 80px;
-        margin-right: 80px;
-    }
-    .imagenmanga1993{
-        height: 450px;
-        margin-left: 180px;
+.imagencar2{
+    width: 50%;
+    height: 50%;
+    margin-left: 300px;
+}
 
-    }
+.imagencar3{
+    width: 50%;
+    height: 50%;
+    margin-left: 300px;
+}
 
-    .imagenmanga{
-        
-        p{
-            margin-top: 12px;
-            font-size: 18px;
-            margin-left: 70px;
-        }
-    }
 
-    .imagenmanga1993-2{
-        &:hover{
-        transform: translateX(190px) scale(200%);
-        transition: 0.3s;
-    }
+
+
+
+@media (max-width:768px){
+
+
+    .imagencar1{
+        width:  50%;
+        height: 50%;
+        margin-left: 170px;
     }
     
-    .imagenmanga1993-2{
-        height: 450px;
-        margin-left: 80px;
-        border: solid
+    .imagencar2{
+        width: 50%;
+        height: 50%;
+        margin-left: 170px;
+    }
+    
+    .imagencar3{
+        width: 50%;
+        height: 50%;
+        margin-left: 170px;
     }
 
-    .segundoparrafo{
+    .imagen1993-2{
+        margin-left: 170px;
+                
+    }
+    
+    .pi93{
+        margin-left: 150px;
+    }
 
-        margin-left: 120px;
-        margin-right: 120px;
-        }
+    .imagenanime1{
+        width: 300px;
+        margin-left: 180px;
+    }
+    
+    .imagenanime1{
+        &:hover{
+        transform: scale(110%);
+        transition: 0.3s;
+    }
+    }
 
-        .imagenmanga1993-3{
-            height: 250px;
-            border: solid;
-            margin-left: 150px;
-
-            
-        }
-        
-        .imagenmanga1993-3{
-            &:hover{
-            transform: scale(150%);
-            transition: 0.3s;
-        }
-        } 
-
-        .imagenmanga1993-4{
-            height: 350px;
-            margin-left: 225px;
-            border: solid;
-            margin-top: 80px;
-            
-        }
-        
-        .imagenmanga1993-4{
-            &:hover{
-            transform: scale(150%);
-            transition: 0.3s;
-        }
-        }
-
-        .ultimaparte3imagenes{
-            display: grid;
-            grid-template-columns: repeat(1,1fr);
-            div{
-        
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                padding: 10px;
-                grid-auto-rows: auto;
-            }
-            div img{
-                width: 70%;
-                height: 100%;
-                object-fit: cover;
-                border: solid;
-        
-            }
-            }
-        
-        .parrafosobretresimagenes{
-            margin-left: 80px;
-            margin-right: 80px;
-            margin-top: 20px;
-        }
-
-        .imagenzoom1{
-            &:hover{
-            transform: scale(120%);
-            transition: 0.3s;
-        }
-        }
-        
-        .imagenzoom2{
-            &:hover{
-            transform: scale(120%);
-            transition: 0.3s;
-        }
-        }
-        
-        
-        .imagenzoom3{
-            &:hover{
-            transform: scale(120%);
-            transition: 0.3s;
-        }
-        }
-        
-        .imagenzoom4{
-            &:hover{
-            transform: scale(120%);
-            transition: 0.3s;
-        }
-        }
-
-        .ultimoparrafoconimagen{
-            display: grid;
-            grid-template-columns: repeat(1,1fr);
-            div{
-        
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                padding: 10px;
-                grid-auto-rows: auto;
-                p{
-                    margin-left: 120px;
-                    margin-right: 120px;
-                }
-            }
-            div img{
-                width: 70%;
-                height: 100%;
-                object-fit: cover;
-                border: solid;
-        
-            }
-            }
-
-            .ultimasdosimagenes{
-                display: grid;
-                grid-template-columns: repeat(1,1fr);
-                div{
-            
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    padding: 10px;
-                    grid-auto-rows: auto;
-                }
-                div img{
-                    width: 70%;
-                    height: 90%;
-                    border: solid;
-            
-                }
-                }
+    .portada{
+        height: 400px;
+        margin-right: 10px;
+      }
 
 }
 
+
+@media (max-width:426px){
+
+
+    .imagenanime1{
+        width: 300px;
+        margin-left: 50px;
+    }
+    
+    .imagenanime1{
+        &:hover{
+        transform: scale(110%);
+        transition: 0.3s;
+    }
+    }
+
+
+    .imagencar1{
+        width:  50%;
+        height: 50%;
+        margin-left: 100px;
+    }
+    
+    .imagencar2{
+        width: 50%;
+        height: 50%;
+        margin-left: 100px;
+    }
+    
+    .imagencar3{
+        width: 50%;
+        height: 50%;
+        margin-left: 100px;
+    }
+
+    .imagen1993-2{
+        margin-left: 55px;
+        width: 75%;        
+    }
+    
+    .pi93{
+        margin-left: 30px;
+    }
+    .portada{
+        height: 220px;
+        margin-right: 10px;
+      }
+
+
+}
+
+
+
+
+
+
+
+@media (max-width:376px){
+
+
+    .imagencar1{
+        width:  50%;
+        height: 50%;
+        margin-left: 100px;
+    }
+    
+    .imagencar2{
+        width: 50%;
+        height: 50%;
+        margin-left: 100px;
+    }
+    
+    .imagencar3{
+        width: 50%;
+        height: 50%;
+        margin-left: 100px;
+    }
+
+
+    .imagen1993-2{
+        margin-left: 55px;
+        width: 70%;        
+    }
+    
+    .pi93{
+        margin-left: 30px;
+    }
+
+    .portada{
+        height: 200px;
+        margin-right: 10px;
+      }
+
+}

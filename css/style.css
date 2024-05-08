@@ -134,154 +134,49 @@ h1 {
 .parrafoprimerencuentro {
   margin-left: 50px; }
 
-.manga1993descripcion h2 {
+h2 {
   text-align: center; }
 
-.parrafomanga p {
-  margin-left: 80px;
-  margin-right: 80px; }
-
-.resumeneventos {
+.imagen1993 {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly; }
-
-.imagenmanga img p {
-  margin-top: 12px;
-  font-size: 18px;
-  margin-left: 20px; }
-
-.imagenmanga1993 {
-  height: 450px;
-  margin-right: 40px;
+  width: 450px;
   border: solid; }
 
-.imagenmanga1993:hover {
-  transform: translateX(-190px) scale(200%);
-  transition: 0.3s; }
-
-.imagenmanga1993-2 {
-  height: 350px;
-  margin-left: 40px;
-  border: solid; }
-
-.imagenmanga1993-2:hover {
-  transform: translateX(190px) scale(200%);
-  transition: 0.3s; }
-
-.parrafoimagen1993-2 {
-  margin-left: 20px; }
-
-.imagenmanga1993-3 {
-  height: 250px;
-  border: solid; }
-
-.imagenmanga1993-3:hover {
-  transform: translateX(190px) scale(150%);
-  transition: 0.3s; }
-
-.imagenmanga1993-4 {
-  height: 350px;
-  margin-left: 40px;
-  border: solid; }
-
-.imagenmanga1993-4:hover {
-  transform: translateX(-190px) scale(250%);
-  transition: 0.3s; }
-
-.segundoparrafo {
-  margin-left: 20px;
-  margin-right: 20px; }
-
-h2 {
-  text-align: center;
-  margin-bottom: 20px; }
-
-.parraforesumen {
-  margin-left: 20px; }
-
-.ultimaparte3imagenes {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); }
-  .ultimaparte3imagenes div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    grid-auto-rows: auto; }
-  .ultimaparte3imagenes div img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border: solid; }
-
-.parrafosobretresimagenes {
-  margin-left: 80px;
-  margin-right: 80px;
-  margin-top: 20px; }
-
-.parrafosituaciones div p {
-  margin-left: 20px;
-  margin-right: 20px; }
-
-.primeraimagensituaciones img {
-  margin-left: 80px;
-  height: 550px; }
-
-.primeraimagensituaciones p {
-  margin-left: 80px; }
-
-.parrafosiguienteaprimeraimagen p {
-  margin-left: 80px;
-  margin-right: 80px;
-  margin-top: 80px; }
-
-.imagenzoom1:hover {
-  transform: translateX(190px) scale(150%);
-  transition: 0.3s; }
-
-.imagenzoom2:hover {
-  transform: translateX(-190px) scale(150%);
-  transition: 0.3s; }
-
-.imagenzoom3:hover {
+.imagen1993:hover {
   transform: scale(150%);
   transition: 0.3s; }
 
-.imagenzoom4:hover {
-  transform: translateX(190px) scale(150%);
-  transition: 0.3s; }
+.flex-container {
+  display: flex;
+  border: black;
+  flex-direction: row;
+  justify-content: space-between; }
 
-.ultimoparrafoconimagen {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); }
-  .ultimoparrafoconimagen div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    grid-auto-rows: auto; }
-  .ultimoparrafoconimagen div img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border: solid; }
+.imagen1993-2 {
+  margin-left: 150px; }
 
-.ultimasdosimagenes {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); }
-  .ultimasdosimagenes div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    grid-auto-rows: auto; }
-  .ultimasdosimagenes div img {
-    width: 80%;
-    height: 90%;
-    border: solid; }
+.pi93 {
+  margin-left: 130px; }
 
-.portada img {
+.imagencar1 {
+  width: 50%;
+  height: 50%;
+  margin-left: 400px; }
+
+.imagencar2 {
+  width: 50%;
+  height: 50%;
+  margin-left: 400px; }
+
+.imagencar3 {
+  width: 50%;
+  height: 50%;
+  margin-left: 300px; }
+
+.parrafo3 {
+  margin-left: 20px; }
+
+.portada {
   height: 350px;
   margin-right: 80px; }
 
@@ -300,6 +195,19 @@ h2 {
   .imagenmanga1993 img:hover {
     transform: translateX(190px) scale(200%);
     transition: 0.3s; } }
+
+.imagen1993-2 {
+  width: 350px;
+  border: solid; }
+
+@media (max-width: 1025px) {
+  .imagen1993-2 {
+    margin-left: 100px; }
+  .pi93 {
+    margin-left: 100px; }
+  .portada {
+    height: 275px;
+    margin-right: 10px; } }
 
 @media (max-width: 991px) {
   .texto p {
@@ -322,104 +230,120 @@ h2 {
   .resumeneventos {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly; } }
+    justify-content: space-evenly; }
+  .imagen1993 {
+    width: 350px; }
+  .imagen1993:hover {
+    transform: scale(110%);
+    transition: 0.3s; } }
 
-@media (max-width: 990px) {
-  .imagenmanga1993:hover {
-    transform: translateX(190px) scale(200%);
-    transition: 0.3s; }
-  .parraforesumen {
-    margin-left: 80px;
-    margin-right: 80px; }
-  .imagenmanga1993 {
-    height: 450px;
-    margin-left: 180px; }
-  .imagenmanga p {
-    margin-top: 12px;
-    font-size: 18px;
-    margin-left: 70px; }
-  .imagenmanga1993-2:hover {
-    transform: translateX(190px) scale(200%);
-    transition: 0.3s; }
-  .imagenmanga1993-2 {
-    height: 450px;
-    margin-left: 80px;
-    border: solid; }
-  .segundoparrafo {
-    margin-left: 120px;
-    margin-right: 120px; }
-  .imagenmanga1993-3 {
-    height: 250px;
-    border: solid;
+.flex-container {
+  display: flex;
+  border: black;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; }
+
+.imagen1993-2 {
+  width: 350px;
+  border: solid; }
+
+.imagenanime1 {
+  width: 400px;
+  margin-left: 80px; }
+
+.imagenanime1:hover {
+  transform: scale(110%);
+  transition: 0.3s; }
+
+.imagencar1 {
+  width: 50%;
+  height: 50%;
+  margin-left: 300px; }
+
+.imagencar2 {
+  width: 50%;
+  height: 50%;
+  margin-left: 300px; }
+
+.imagencar3 {
+  width: 50%;
+  height: 50%;
+  margin-left: 300px; }
+
+@media (max-width: 768px) {
+  .imagencar1 {
+    width: 50%;
+    height: 50%;
+    margin-left: 170px; }
+  .imagencar2 {
+    width: 50%;
+    height: 50%;
+    margin-left: 170px; }
+  .imagencar3 {
+    width: 50%;
+    height: 50%;
+    margin-left: 170px; }
+  .imagen1993-2 {
+    margin-left: 170px; }
+  .pi93 {
     margin-left: 150px; }
-  .imagenmanga1993-3:hover {
-    transform: scale(150%);
+  .imagenanime1 {
+    width: 300px;
+    margin-left: 180px; }
+  .imagenanime1:hover {
+    transform: scale(110%);
     transition: 0.3s; }
-  .imagenmanga1993-4 {
-    height: 350px;
-    margin-left: 225px;
-    border: solid;
-    margin-top: 80px; }
-  .imagenmanga1993-4:hover {
-    transform: scale(150%);
+  .portada {
+    height: 400px;
+    margin-right: 10px; } }
+
+@media (max-width: 426px) {
+  .imagenanime1 {
+    width: 300px;
+    margin-left: 50px; }
+  .imagenanime1:hover {
+    transform: scale(110%);
     transition: 0.3s; }
-  .ultimaparte3imagenes {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr); }
-    .ultimaparte3imagenes div {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 10px;
-      grid-auto-rows: auto; }
-    .ultimaparte3imagenes div img {
-      width: 70%;
-      height: 100%;
-      object-fit: cover;
-      border: solid; }
-  .parrafosobretresimagenes {
-    margin-left: 80px;
-    margin-right: 80px;
-    margin-top: 20px; }
-  .imagenzoom1:hover {
-    transform: scale(120%);
-    transition: 0.3s; }
-  .imagenzoom2:hover {
-    transform: scale(120%);
-    transition: 0.3s; }
-  .imagenzoom3:hover {
-    transform: scale(120%);
-    transition: 0.3s; }
-  .imagenzoom4:hover {
-    transform: scale(120%);
-    transition: 0.3s; }
-  .ultimoparrafoconimagen {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr); }
-    .ultimoparrafoconimagen div {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 10px;
-      grid-auto-rows: auto; }
-      .ultimoparrafoconimagen div p {
-        margin-left: 120px;
-        margin-right: 120px; }
-    .ultimoparrafoconimagen div img {
-      width: 70%;
-      height: 100%;
-      object-fit: cover;
-      border: solid; }
-  .ultimasdosimagenes {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr); }
-    .ultimasdosimagenes div {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 10px;
-      grid-auto-rows: auto; }
-    .ultimasdosimagenes div img {
-      width: 70%;
-      height: 90%;
-      border: solid; } }
+  .imagencar1 {
+    width: 50%;
+    height: 50%;
+    margin-left: 100px; }
+  .imagencar2 {
+    width: 50%;
+    height: 50%;
+    margin-left: 100px; }
+  .imagencar3 {
+    width: 50%;
+    height: 50%;
+    margin-left: 100px; }
+  .imagen1993-2 {
+    margin-left: 55px;
+    width: 75%; }
+  .pi93 {
+    margin-left: 30px; }
+  .portada {
+    height: 220px;
+    margin-right: 10px; } }
+
+@media (max-width: 376px) {
+  .imagencar1 {
+    width: 50%;
+    height: 50%;
+    margin-left: 100px; }
+  .imagencar2 {
+    width: 50%;
+    height: 50%;
+    margin-left: 100px; }
+  .imagencar3 {
+    width: 50%;
+    height: 50%;
+    margin-left: 100px; }
+  .imagen1993-2 {
+    margin-left: 55px;
+    width: 70%; }
+  .pi93 {
+    margin-left: 30px; }
+  .portada {
+    height: 200px;
+    margin-right: 10px; } }
