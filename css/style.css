@@ -346,4 +346,13 @@ h2 {
     margin-left: 30px; }
   .portada {
     height: 200px;
-    margin-right: 10px; } }
+    margin-right: 10px; }
+  .imagenanime1 {
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 5px;
+    margin-bottom: 15px; }
+  div p {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px; } }
