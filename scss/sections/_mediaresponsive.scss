@@ -54,6 +54,7 @@
         margin-right: 10px;
       }
 
+
 }
 
 
@@ -157,6 +158,12 @@
     width: 50%;
     height: 50%;
     margin-left: 300px;
+
+    .imagen2{
+        width:  350px;
+        height: 350px;
+        border: solid;
+    }
 }
 
 
@@ -164,6 +171,14 @@
 
 
 @media (max-width:768px){
+
+        /* Tamaño segunda imagen */
+        .imagen2{
+            width:  350px;
+             height: 350px;
+            border: solid;
+             margin-left: 30px;
+        }  
 
 
     .imagencar1{
@@ -210,6 +225,7 @@
         margin-right: 10px;
       }
 
+    
 }
 
 
@@ -259,14 +275,43 @@
         height: 220px;
         margin-right: 10px;
       }
+                
+    } /* Tamaño primera imagen */
+    .imagen1{
+        width:  350px;
+        height: 350px;
+        border: solid;
+        margin-left: 30px;
+    
+    }
+    
 
 
-}
+    .texto p{
+        font-family: Asushin;
+        font-size: 70px;
+        text-align: center;
+        border: solid 4px;
+        width: 180px;
+        margin-left: 120px;
+        margin-top: 20px;
+    }  
 
+    .parrafolinks{
 
+        margin-left: 125px;
 
-
-
+        }
+    
+        .parrafolinks{
+            list-style-type: none;
+            border: solid;
+            width: 180px;
+            margin-left: 109px;
+            margin-top: 20px;
+            
+            
+        }
 
 
 @media (max-width:376px){
@@ -317,7 +362,50 @@
         text-decoration: none;
         font-size: 15px;
     
+    } /* Tamaño primera imagen */
+    .imagen1{
+        width:  250px;
+        height: 250px;
+        border: solid;
+        margin-left: 40px;
+    
     }
+    
+    /* Tamaño segunda imagen */
+    .imagen2{
+        width:  250px;
+        height: 250px;
+        border: solid;
+        margin-left: 40px;
+        margin-top: 20px;
+    }   
+    .footer{
+            font-size: 5px;
+    }
+    .texto p{
+        font-family: Asushin;
+        font-size: 70px;
+        text-align: center;
+        border: solid 4px;
+        width: 180px;
+        margin-left: 90px;
+        margin-top: 20px;
+    }  
 
+    .parrafolinks{
+
+        margin-left: 125px;
+
+        }
+    
+        .parrafolinks{
+            list-style-type: none;
+            border: solid;
+            width: 180px;
+            margin-left: 80px;
+            margin-top: 20px;
+            
+            
+        }
 
 }
