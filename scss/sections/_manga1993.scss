@@ -2,53 +2,9 @@ h2{
     text-align: center;
 }
 
-.imagen1993{
-    display: flex; 
-    width: 450px;
-    border: solid;
-
+h1{
+    text-align: center;
 }
 
-.imagen1993{
-    &:hover{
-    transform: scale(150%);
-    transition: 0.3s;
-}
-}
-.flex-container{
-    display: flex;
-    border: black;
-    flex-direction: row;
-    justify-content: space-between
-}
 
-.imagen1993-2{
-    margin-left: 150px;
-            
-}
 
-.pi93{
-    margin-left: 130px;
-}
-
-.imagencar1{
-    width:  50%;
-    height: 50%;
-    margin-left: 400px;
-}
-
-.imagencar2{
-    width: 50%;
-    height: 50%;
-    margin-left: 400px;
-}
-
-.imagencar3{
-    width: 50%;
-    height: 50%;
-    margin-left: 300px;
-}
-
-.parrafo3{
-    margin-left: 20px;
-}

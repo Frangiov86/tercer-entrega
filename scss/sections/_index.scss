@@ -1,0 +1,27 @@
+.parrafoindex{
+    background-image: 
+    radial-gradient(circle at 50% -20.71%, #eaecd0 0, #e6edd2 6.25%, 
+    #e2eed4 12.5%, #deefd6 18.75%, #daf0d9 25%, #d6f1dc 31.25%, #d3f1df 37.5%, 
+    #d0f2e2 43.75%, #cdf2e6 50%, #cbf2ea 56.25%, #c9f2ed 62.5%, #c8f2f1 68.75%, #c7f2f4 75%, 
+    #c7f2f7 81.25%, #c8f1fa 87.5%, #c9f1fd 93.75%, #cbf0ff 100%);
+
+}
+
+header {
+    background-image: linear-gradient(to right, red, black);
+    padding: 20px 0; /* Espacio interno alrededor del encabezado */
+}
+
+.container1 {
+    max-width: 1440px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor */
+    text-align: center; /* Centra horizontalmente el contenido dentro del contenedor */
+}
+
+.header-img {
+    width: 100%; /* La imagen ocupa todo el ancho del contenedor */
+    height: auto; /* Altura automática para mantener la proporción */
+    margin-top: 20px;
+    
+}
+

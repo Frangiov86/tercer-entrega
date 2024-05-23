@@ -22,3 +22,32 @@ color: white;
     background-color: black;
     color: #fff;
 }
+
+.navbarindex {
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradiente de colores de izquierda a derecha */
+}
+
+.navbarindex ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbarindex li {
+    flex: 1;
+}
+
+.navbarindex a {
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+    text-decoration: none;
+    color: white; /* Color del texto */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave */
+}
+
+.navbarindex a:hover {
+    background-color: black; /* Cambia el color de fondo al pasar el cursor */
+    color: white; /* Cambia el color del texto al pasar el cursor */
+}

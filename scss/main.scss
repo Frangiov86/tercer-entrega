@@ -1,11 +1,10 @@
 @import './utilities/colors';
 @import './utilities/fonts';
 @import './utilities/reset';
+@import './utilities/animaciones';
 
 // Secciones
-
-@import './sections/div';
-@import './sections/imagenesindex';
+@import './sections/index';
 @import './sections/imagenestitulospersonajes';
 @import './sections/navbar';
 @import './sections/paginahistoria';
@@ -14,3 +13,7 @@
 @import './sections/manga1993';
 @import '../scss/sections/portada';
 @import './sections/mediaresponsive';
+@import './sections/universo';
+@import './sections/footer';
+
+

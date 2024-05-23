@@ -1,0 +1,962 @@
+00:50:40	Manuel Rodriguez:	profe yo necesito ayuda con una cosita, es lo único que no estoy logrando
+00:52:07	Augusto Soto Jeria:	Es 100% necesario que esté en el servidor? Para proyectos con muchas fuentes multimedia, el servidor me parece muy lento, de por sí GitHub pages es bastante lento al momento de cargar.
+00:52:22	Francisco Giovanaz Romero:	Hola profe. Para la entrega final, se tiene que subir el trabajo a uno de los servidores que vimos hace dos clases atrás o con Github pages?. Gracias
+00:52:28	Christian Fortes:	Replying to "Es 100% necesario qu..."
+
+viste las dimensiones de tus archivos multimedia?
+00:52:55	Manuel Rodriguez:	https://github.com/jmanurodriguez/pekitas/deployments
+00:52:57	Christian Fortes:	Replying to "Es 100% necesario qu..."
+
+quizás te va lento por la calidad, te recomiendo comprimir los archivos multimedia para tener mas liviano los archivos
+00:53:21	Augusto Soto Jeria:	Replying to "Es 100% necesario qu..."
+
+Sí. Pero algunas paginas de mi proyecto apuntan a la fotografía, por lo que por lógica, una foto en +5K de resolución no tiene un peso tan bajo.
+00:53:39	Augusto Soto Jeria:	Replying to "Es 100% necesario qu..."
+
+Está todo comprimido y algunos elementos están subidos a mi dedicado propio. Lo más pesado.
+00:53:49	Christian Fortes:	Replying to "Hola profe. Para la ..."
+
+Es opcional según entendí, podes enviar por GitHub pages si  te complica el sv
+00:54:32	Christian Fortes:	Replying to "Es 100% necesario qu..."
+
+@Augusto Soto Jeria Te recomiendo en la pagina para comprimir imágenes, reduci el tamaño a 1920x1080 dependiendo tus dimensiones para dejar todo mas fluido
+00:55:07	Christian Fortes:	Replying to "Es 100% necesario qu..."
+
+@Augusto Soto Jeria https://www.iloveimg.com/es/redimensionar-imagen
+00:56:09	Augusto Soto Jeria:	Replying to "Es 100% necesario qu..."
+
+Correcto. Dejé todo para que mis stats queden sobre el 90% en cada categoría en Lighthouse. Comprimí algunos elementos, los otros los dejé en mi servidor privado y otros los dejé como está. Mi queja de igual manera es con ese servidor en especifico. El ancho de banda es bastante pobre, así que prefiero GitHub pages para la evaluación.
+00:57:07	Christian Fortes:	Replying to "Es 100% necesario qu..."
+
+Si, GitHub pages suele ser mejor opción que otros sv gratuitos
+01:01:03	CLAUDIO MARCELO CARABELLA:	hola, tengo dudas con mi proyecto
+01:01:19	Christian Fortes:	yo luego tengo una duda con respecto al presupuesto
+01:02:42	CLAUDIO MARCELO CARABELLA:	ClaudioCarabella/proyecto-miriph (github.com)
+01:04:12	Francisco Giovanaz Romero:	Muchas gracias profe. Justo hicieron la misma consulta y se respondió. Muchas gracias por el curso, me gustó. Aprendí mucho. Espero disfrutar también la parte de JS.
+01:05:52	Luciano Sciarrabba:	achicarlo con % en altura?
+01:06:04	Christian Fortes:	Yo lo hice agregándole un contenedor que contenga el carousel
+01:06:13	Christian Fortes:	tipo un div que envuelva el carousel de bootstrap
+01:09:16	Luciano Sciarrabba:	a mi me paso
+01:09:53	Leonardo Fernandez:	https://lferna2777.github.io/entrega-fernandez/    profe podrías verificar si se ve bien en dispositivo móvil (responsivo)
+01:10:31	Christian Fortes:	Replying to "https://lferna2777.g..."
+
+se te rompe después de los 518px
+01:12:18	Leonardo Fernandez:	Replying to "https://lferna2777.g..."
+
+pero menos de 375 funciona bien?
+01:12:43	Christian Fortes:	Replying to "https://lferna2777.g..."
+
+te digo, no creo porque si a los 518px ya esta roto no creo que con menos este mejor
+01:12:51	Christian Fortes:	Replying to "https://lferna2777.g..."
+
+no dije nada
+01:12:56	Christian Fortes:	Replying to "https://lferna2777.g..."
+
+si lo tenes bien
+01:13:48	Leonardo Fernandez:	Replying to "https://lferna2777.g..."
+
+gracias
+01:17:02	Luciano Sciarrabba:	profe, yo tengo una consulta...no tengo mic ja
+01:19:11	Luciano Sciarrabba:	https://lucianosciarrabba.github.io/mi_repositorio_final/
+01:20:36	Franco Facchini:	te recomiendo uses los tamaños defecto responsive de Chrome
+01:20:51	Franco Facchini:	si te fijás en la parte superior del responsive de chrome te tira el ancho cuando clickeas en la barra
+01:20:53	Christian Fortes:	Replying to "https://lucianosciar..."
+
+lo tenes re bien tu proyecto
+01:20:58	Luciano Sciarrabba:	lo que esta bueno es saber que el numero que vos le pones es el numero donde comienza a cambiar
+01:21:06	Christian Fortes:	Replying to "https://lucianosciar..."
+
+tenes un detalle con el icono de wpp que te queda muy abajo
+01:21:13	Luciano Sciarrabba:	si vos pones 800 y tu celu tiene 300 se va a ver igual
+01:21:23	Luciano Sciarrabba:	(en este caso que pusiste max)
+01:21:38	CLAUDIO MARCELO CARABELLA:	joha, el carrousel me desaparece la imagen
+01:22:05	CLAUDIO MARCELO CARABELLA:	no se me adapta
+01:22:12	Salvador Matias Fernandez:	QUE BUENO HABER ENTRADO EN ESTE AFTER POR QUE ESTOY SOLUCIONANDO TODOS LOS TEMAS QUE TENIA EN MI PROYECTO JAJAJA !
+01:22:22	Juan Rabuffetti:	a que hora empezo esto?
+01:22:27	Christian Fortes:	Replying to "a que hora empezo es..."
+
+18:00
+01:22:50	Juan Rabuffetti:	Replying to "a que hora empezo es..."
+
+a no sabia que arrancaba 18
+01:23:01	Christian Fortes:	Replying to "a que hora empezo es..."
+
+lo había dicho ayer la profe en el chat de la plataforma
+01:23:08	Salvador Matias Fernandez:	Replying to "a que hora empezo es..."
+
+Se comento en el chat Juan
+01:23:11	Juan Rabuffetti:	Replying to "a que hora empezo es..."
+
+uhh
+01:23:20	Salvador Matias Fernandez:	Replying to "a que hora empezo es..."
+
+Pero tranqui queda grabado
+01:23:23	Juan Rabuffetti:	Replying to "a que hora empezo es..."
+
+no lo viche
+01:23:36	Christian Fortes:	Replying to "a que hora empezo es..."
+
+de 18:00-19:00 el after y de 19:00 a 21:00 la ultima clase
+01:23:58	Luciano Sciarrabba:	mi idea en el index
+01:24:03	Luciano Sciarrabba:	tiene unos iconos
+01:24:11	Luciano Sciarrabba:	no
+01:24:12	Luciano Sciarrabba:	jaja
+01:24:24	Luciano Sciarrabba:	esos iconos llevan a la pagina servicio
+01:24:30	Luciano Sciarrabba:	barbaro
+01:24:40	Luciano Sciarrabba:	la idea era que lleven al carrusel donde corresponde
+01:24:45	Luciano Sciarrabba:	no se si me explixo
+01:25:00	Luciano Sciarrabba:	que cuando toque atención lleve al carrusel pero cuando dice atencion
+01:25:03	Luciano Sciarrabba:	claro
+01:25:21	Luciano Sciarrabba:	algo vi, pero llegue sobre el final
+01:25:59	Profesor Coderhouse:	mi_repositorio_final/pages/servicios.html#cerrajeria
+01:26:02	Luciano Sciarrabba:	bien
+01:26:30	Luciano Sciarrabba:	genial
+01:26:56	Luciano Sciarrabba:	era eso!
+01:26:59	Luciano Sciarrabba:	gracias!
+01:30:23	Franco Facchini:	tendrías que aplicar un media query para la imágen
+01:30:32	Franco Facchini:	para que la imagen se adapte a cada tamaño
+01:33:03	Salvador Matias Fernandez:	Nono yo no! Juan jaja yo estoy desde la 18 resolviendo problemas jaja
+01:33:33	Christian Fortes:	profe yo para rellenar el tiempo con responsive
+01:33:38	Christian Fortes:	tengo una duda
+01:33:43	Daniela Iuorio:	Yo!
+01:34:08	Daniela Iuorio:	Puedo aprovechar para pedirte recomendaciones para mejorar la estetica y accesibilidad de mi sitio?
+01:34:15	Profesor Coderhouse:	Reacted to "Puedo aprovechar par..." with 👍
+01:35:09	Daniela Iuorio:	https://daniela-iuorio.github.io/DW_2024_Iuorio_PF-SASS/
+01:36:06	Augusto Soto Jeria:	Yo me ajusto a 1 media query por sección.
+01:36:19	Manuel Rodriguez:	yo tengo un montón de medias queries
+01:36:19	Sebastian Fernandez:	creo que 4 tengo yo
+01:36:42	Manuel Rodriguez:	osea una por pagina esta bien?
+01:37:42	Franco Facchini:	900 no sería tablet?
+01:38:01	Luciano Sciarrabba:	Replying to "osea una por pagina ..."
+
+osea una por pagina esta bien?yo tengo una por pagina tambien
+01:38:08	Luciano Sciarrabba:	Replying to "osea una por pagina ..."
+
+no se si esta bien jaja
+01:38:20	Jose Suarez:	yo quiero saber el mínimo de resolución q tenemos q hacer responsive
+01:38:26	[TUTOR] Thiago Sosa:	Hola a todos!
+01:38:36	Franco Facchini:	Replying to "osea una por pagina ..."
+
+yo uso 4, no es necesario que sea por página, ya que cada media querie se aplica a todo el css
+01:38:46	Franco Facchini:	Replying to "osea una por pagina ..."
+
+no estés repitiendo tanto código
+01:39:05	Franco Facchini:	Replying to "yo quiero saber el m..."
+
+lo que se estaría evaluando tengo entendido que es, es desktop y mobile
+01:40:01	Jordan Aguirre:	hola buenas
+01:40:25	Daniela Iuorio:	despreocupate! era solo si había tiempo
+01:40:29	Daniela Iuorio:	gracias
+01:40:46	[TUTOR] Thiago Sosa:	Replying to "yo quiero saber el m..."
+
+fíjate que los celulares empiezan en 300px/350px
+01:40:52	[TUTOR] Thiago Sosa:	Replying to "yo quiero saber el m..."
+
+desde ahí hay que arrancar
+01:41:26	Christian Fortes:	Replying to "yo quiero saber el m..."
+
+de 375px  para arriba no?
+01:41:45	[TUTOR] Thiago Sosa:	Replying to "yo quiero saber el m..."
+
+si, yo recomiendo 350px para arriba
+01:41:48	Daniela Iuorio:	eso q pasa en la de contacto q el footer se sube.. xq sera?
+01:41:51	Christian Fortes:	Replying to "yo quiero saber el m..."
+
+yo creo que 375px ya es lo mínimo hoy en dia aunque hay celulares mas chicos
+01:41:55	[TUTOR] Thiago Sosa:	Replying to "yo quiero saber el m..."
+
+pero por esas medidas va
+01:42:00	Christian Fortes:	Replying to "yo quiero saber el m..."
+
+ahí va
+01:42:08	Aldo Sanchez:	perdón por la llegada tarde
+01:42:28	[TUTOR] Thiago Sosa:	Replying to "eso q pasa en la de ..."
+
+por el contenido, fíjate que no es lo mismo en todas las paginas.
+01:42:37	[TUTOR] Thiago Sosa:	Replying to "eso q pasa en la de ..."
+
+pero podes manejarlo con altos
+01:42:46	Daniela Iuorio:	Replying to "eso q pasa en la de ..."
+
+ok!
+01:42:59	Daniela Iuorio:	bien, gracias!
+01:43:31	[TUTOR] Thiago Sosa:	fíjense, algo que vi repetido en los proyecto, es que el readme.md que tienen muchos es el de Joha, de SASS.
+01:43:36	[TUTOR] Thiago Sosa:	Cambienlo a uno propio por favor
+01:43:44	[TUTOR] Thiago Sosa:	describiendo su proyecto
+01:43:50	[TUTOR] Thiago Sosa:	o, en su defecto, borrenlo
+01:43:59	Daniela Iuorio:	Replying to "o, en su defecto, bo..."
+
+ok!!
+01:44:30	Lucila Corvalan:	yo tengo una duda también estoy teniendo un problema con un grid no se me achican unas imagenes
+01:51:12	Marcelo Di Vincenzo:	buenas
+01:51:15	[TUTOR] Thiago Sosa:	llegó nomás
+01:51:20	Manuel Rodriguez:	llegamos
+01:51:21	CLAUDIO MARCELO CARABELLA:	sii
+01:51:31	Francisco Giovanaz Romero:	Llegamos después de mucho
+01:51:31	Fernando Ledesma Sánchez:	Hola, buenas tardes
+01:51:32	Francisco Giovanaz Romero:	jajajaajajajaja
+01:51:34	Gonzalo Rodriguez:	jajajaja
+01:51:37	Gonzalo Rodriguez:	TEMON
+01:51:38	Francisco Giovanaz Romero:	Vamos Europe
+01:51:39	Sebastian Fernandez:	😂
+01:51:39	Javier Alejandro Tevez:	jajajajaj
+01:51:39	Francisco Giovanaz Romero:	ajajajajajaja
+01:51:41	Francisco Giovanaz Romero:	Temazo
+01:51:41	Federico Stasi:	buenaaass
+01:51:42	Javier Alejandro Tevez:	daleee
+01:51:43	Juan Rabuffetti:	vamooooo
+01:51:45	Federico Stasi:	vamooo
+01:51:48	Manuel Rodriguez:	quedamos menos de la mitad
+01:51:59	Fiorella Taffarel:	Temazooo
+01:52:02	Fiorella Taffarel:	Última clase
+01:52:09	Javier Alejandro Tevez:	la pelea final (?
+01:52:13	Aixa Berrio:	esoooooo ajajaj
+01:52:18	Mauro Romano:	hola perritxs
+01:52:20	Manuel Rodriguez:	persevera y triunfaras decía mi tia
+01:52:22	Florencia Salgado:	jajaja💪
+01:52:27	Francisco Giovanaz Romero:	Tiene buenos gustos musicales la profe
+01:52:32	Francisco Giovanaz Romero:	La banco
+01:52:41	Javier Alejandro Tevez:	idolaa
+01:52:48	[TUTOR] Thiago Sosa:	felicidades por llegar hasta acá
+01:52:53	Francisco Giovanaz Romero:	Ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+01:52:54	Francisco Giovanaz Romero:	jajajaajajaj
+01:53:08	Francisco Giovanaz Romero:	Recuerdo la página de Arnold
+01:53:20	Francisco Giovanaz Romero:	Y los primeros proyectos 🥲
+01:53:22	Gustavo Toxqui Xopa:	Hola, hasta cuánto tiempo después de que terminó el curso podemos acceder a los recursos (grabaciones, presentaciones, etc)?
+01:53:23	Franco Gatti Candelero:	a partir de ahora todos son mi competencia (?)
+01:53:36	[TUTOR] Thiago Sosa:	Replying to "Hola, hasta cuánto t..."
+
+por lo que yo tengo entendido, es por siempre
+01:53:36	Mauro Romano:	que comience el juego
+01:53:43	Lucas Da Cruz:	Reacted to "a partir de ahora to..." with 😂
+01:53:43	[TUTOR] Thiago Sosa:	Replying to "Hola, hasta cuánto t..."
+
+por lo que siempre tuve entendido
+01:54:03	Fiorella Taffarel:	Reacted to a partir de ahora to... with "😂"
+01:54:06	CLAUDIO MARCELO CARABELLA:	dan algún certificado ?
+01:54:11	Lucas Da Cruz:	no voy a llorar
+01:54:11	[TUTOR] Thiago Sosa:	Replying to "dan algún certificad..."
+
+si
+01:54:16	[TUTOR] Thiago Sosa:	Replying to "dan algún certificad..."
+
+al aprobar el proyecto final
+01:54:38	Lucas Da Cruz:	xD
+01:54:39	CLAUDIO MARCELO CARABELLA:	Replying to "dan algún certificad..."
+
+lo mandan por mail o donde lo bajas ?
+01:55:18	[TUTOR] Juan Narvaez:	Replying to "dan algún certificad..." 
+
+ Si
+01:56:56	Mauro Romano:	Replying to "dan algún certificad..."
+
+los que hacemos full stack es al final de la ruta verdad?
+01:57:49	[TUTOR] Thiago Sosa:	creo que sass se va muy odiado, pero van a ver que sirve mucho
+01:57:56	[TUTOR] Thiago Sosa:	como dice Joha
+01:58:34	Mauro Romano:	Una pedorrada sass :D
+01:58:41	CLAUDIO MARCELO CARABELLA:	consulta , se pueden usar iconos de bootstrap?, como es?
+01:58:55	[TUTOR] Thiago Sosa:	Replying to "consulta , se pueden..."
+
+si, fíjate que viene como svg
+01:58:56	CLAUDIO MARCELO CARABELLA:	por ej para las redes
+01:59:03	[TUTOR] Thiago Sosa:	Replying to "consulta , se pueden..."
+
+copia directo la etiqueta
+01:59:20	Francisco Giovanaz Romero:	Replying to "creo que sass se va ..."
+
+Primero lo empecé odiano, después lo termine queriendo
+01:59:23	Francisco Giovanaz Romero:	Replying to "creo que sass se va ..."
+
+Al igual que boostrap
+01:59:31	Daniela Iuorio:	Replying to "creo que sass se va ..."
+
+idem
+01:59:34	Francisco Giovanaz Romero:	Vamooooooooooooo!!
+01:59:41	Lucas Da Cruz:	🥲
+01:59:58	Fiorella Taffarel:	🥺
+02:00:12	Franco Castriota:	Pregunta, Mientras apruebes el proyecto final te dan el certificado?
+02:00:12	Salvador Matias Fernandez:	😃
+02:00:23	Christian Fortes:	controlador de versiones?
+02:00:25	[TUTOR] Thiago Sosa:	Replying to "Pregunta, Mientras a..."
+
+si, y las demás entregas
+02:00:36	Profesor Coderhouse:	GIT
+02:00:36	Christian Fortes:	aaa
+02:00:37	[TUTOR] Thiago Sosa:	Replying to "controlador de versi..."
+
+Git
+02:00:42	Franco Gatti Candelero:	en full stack dicen que en JavaScript se pone dificil
+02:01:11	Francisco Giovanaz Romero:	Estoy anotado en full stack, así que me espera un mundo maravilloso
+02:01:21	Christian Fortes:	que es mejor ir por js o directo a react?
+02:01:29	Salvador Matias Fernandez:	Se viene lo picante de verdad con JS ahora no?
+02:01:29	Francisco Giovanaz Romero:	Replying to "que es mejor ir por ..."
+
+JS
+02:01:32	Francisco Giovanaz Romero:	Replying to "que es mejor ir por ..."
+
+Primero
+02:01:35	Francisco Giovanaz Romero:	Replying to "que es mejor ir por ..."
+
+Y después React
+02:01:35	[TUTOR] Thiago Sosa:	ojo, js si les gusta la progamacion, si les gusta el diseño pueden ir por diseño ux/ui
+02:01:39	Fernando Ledesma Sánchez:	y Angular?
+02:01:45	[TUTOR] Thiago Sosa:	Replying to "y Angular?"
+
+después de js
+02:01:53	Francisco Giovanaz Romero:	Replying to "que es mejor ir por ..."
+
+Tenés que saber JS primero, antes de saber implementar React
+02:02:32	Christian Fortes:	Replying to "que es mejor ir por ..."
+
+tengo una base de js e hice un proyecto con react pero tampoco es que sepa mucho de js, (me caigo un poco)
+02:03:05	[TUTOR] Thiago Sosa:	stack overflow
+02:03:06	[TUTOR] Thiago Sosa:	sisi
+02:03:16	Francisco Giovanaz Romero:	Replying to "que es mejor ir por ..."
+
+@Christian Fortes Mi próximo curso es JS. Y de hecho te sirve para mejorar el CSS y darle mas valor agregado a la páginas. POdes hacer cosas mucho mas asombrosas que con la base que aprendimos.
+02:03:41	Francisco Giovanaz Romero:	Replying to "que es mejor ir por ..."
+
+Ejemplo un carrosuel con efectos de ptm.
+02:03:46	[TUTOR] Thiago Sosa:	Replying to "que es mejor ir por ..."
+
+para react es necesario una buena base de js, tenerlo bien claro
+02:03:48	Francisco Giovanaz Romero:	Replying to "que es mejor ir por ..."
+
+Eso si o si se hace con JS
+02:04:00	Christian Fortes:	Replying to "que es mejor ir por ..."
+
+lo tendré en cuenta en ese caso
+02:04:04	Florencia Salgado:	Como busco ese canal de discrod que menciona Joha? no me aparece en el discrod q tengo de Coder
+02:04:09	Christian Fortes:	Replying to "que es mejor ir por ..."
+
+muchas gracias
+02:04:29	Francisco Giovanaz Romero:	Reacted to "idem" with ❤️
+02:04:38	Augusto Soto Jeria:	https://discord.gg/cKjSgS6S
+02:04:44	Federico Stasi:	yo quede bastante disconforme cn mi 3era preentrega, xq x un par d problemas no le `pude dar mucha bola, pero para el final voy  ameterle cn todo
+02:04:45	Profesor Coderhouse:	Reacted to "https://discord.gg/c..." with ⭐
+02:04:46	Florencia Salgado:	gracias!!!!!!!
+02:06:41	Daniela Iuorio:	lo del servidor
+02:06:44	Franco Gatti Candelero:	de los wireframes?
+02:06:56	Fernando Ledesma Sánchez:	entonces si tenemos la tercer entrega aprobada con "optimo" sin correcciones ya estaría para entregar?
+02:06:56	Franco Facchini:	los wireframes hay que renovarlos para que se asemejen a la entrega final no?
+02:06:59	Salvador Matias Fernandez:	Los wireframe actualizados?
+02:07:03	Florencia Salgado:	lo de subirlo a un hoting no va no?con el git nos arreglamos?
+02:07:05	Emiliano Lorenzo:	como era la secuencia de comandos git podemos repasar? y como hacer para poder hacer los nuevos comits al repositorio que ya tenemos creado?
+02:07:14	[TUTOR] Thiago Sosa:	por favor, vean de sacar texto lorem, el readme de Joha, realicen las modificaciones
+02:07:23	Franco Facchini:	presupuesto también habría que calcular?
+02:07:41	Franco Facchini:	Replying to "por favor, vean de s..."
+
+datazo, porque estoy lleno de Lorems
+02:08:18	Jordan Aguirre:	el sitemap es necesario?
+02:08:31	Florencia Salgado:	Replying to "por favor, vean de s..."
+
+idem
+02:08:35	[TUTOR] Thiago Sosa:	Replying to "el sitemap es necesa..."
+
+suma agregarlo
+02:08:48	Daniela Iuorio:	Replying to "por favor, vean de s..."
+
+yo creé los textos con ChatGPT
+02:08:59	Daniela Iuorio:	Replying to "por favor, vean de s..."
+
+para ganar tiempo
+02:09:18	Juan Rabuffetti:	Replying to "el sitemap es necesa..."
+
+que era eso del sitemap?
+02:09:29	Jordan Aguirre:	https://jjordannaguirre.github.io/tercer-pre-entrega-ch/
+02:09:30	Franco Facchini:	Replying to "por favor, vean de s..."
+
+eficiencia, jajajja cuando tenga todo el contenido responsive, entonces ahí cargaré las cosas
+02:09:32	[TUTOR] Thiago Sosa:	Replying to "el sitemap es necesa..."
+
+ayuda al SEO, podes verlo en la clase
+02:09:50	Franco Gatti Candelero:	https://francosdp.github.io/PreEntrega3-GattiCandelero/
+02:09:51	Francisco Giovanaz Romero:	Francisco Andrés Giovanaz Romero https://github.com/Frangiov86/tercer-entrega
+02:09:53	Juan Rabuffetti:	Replying to "el sitemap es necesa..."
+
+en que clase esta eso
+02:09:56	Juan Rabuffetti:	https://github.com/JuanPRabuffetti/-JuanPRabuffetti-PreEntrega3-Rabuffetti
+02:09:56	Federico Stasi:	pregunta no había cmom1 semana a partir de ahora para entregar el final?? o era ahora?
+02:09:58	Luciano Sciarrabba:	https://lucianosciarrabba.github.io/mi_repositorio_final/
+02:09:58	Bruno Fazzari:	https://bfazzari.github.io/Entrega-3/
+02:10:00	Franco Facchini:	me da vergüenza porque el mío tiene 1 página y media sin terminar jajjaja
+02:10:00	Florencia Salgado:	https://florikofs.github.io/entrega3/
+02:10:03	Sebastian Fernandez:	https://sebastian-fernandez1985.github.io/iniciando-repositor/
+02:10:04	Maria Lidia Besson:	https://marialidiaangelina.github.io/JuanSolaescritor/
+02:10:05	[TUTOR] Thiago Sosa:	Replying to "el sitemap es necesa..."
+
+en la de SEO, clase 15
+02:10:11	Salvador Matias Fernandez:	Si estoy usando la versión corta de sass la cual no me sube la carpeta .json, es necesario que utilice la versión larga para agregar la carpeta?
+02:10:12	Franco Caraballo:	https://francocaraballo.github.io/coder-project/
+02:10:16	Christian Fortes:	https://github.com/TheChrisHp/proyecto-dw
+02:10:17	Juan Rabuffetti:	Replying to "el sitemap es necesa..."
+
+gracias thiago
+02:10:18	Matias Calvar:	https://matiasc22.github.io/construction/
+02:10:22	Aldo Sanchez:	https://aldomsanchez.github.io/AldiflixNuevo_Github/
+02:10:23	Franco Facchini:	https://facchinifran.github.io/Website/
+02:10:36	Manuel Rodriguez:	https://github.com/jmanurodriguez/pekitas/deployments
+02:10:41	Francisco Giovanaz Romero:	Igual faltan cosas por agregar, todavía no hice Push
+02:10:42	Iñaki Palacios:	https://palaciosinaki.github.io/PreEntrega3-Palacios/
+02:10:53	Juan Rabuffetti:	cuanto tiempo es para hacer la ultima entrega?
+02:10:54	Francisco Giovanaz Romero:	Es el de la tercer preentrega pero todavía faltan agregar cosas.
+02:10:54	Franco Facchini:	Replying to "Si estoy usando la v..."
+
+no, porque justamente la carpeta de Json no debería subirse
+02:11:03	Belen Espalter Gonzalez:	Una consulta, como se envia en la entrega el presupuesto¡
+02:11:04	Luciano Sciarrabba:	una consulta! una vez finalizada la cursada, las diapositivas y las grabaciones quedan?
+02:11:07	Belen Espalter Gonzalez:	?
+02:11:07	Mauro Romano:	https://romaoruam.github.io/The-Yonkys/
+02:11:07	Manuel Rodriguez:	https://jmanurodriguez.github.io/pekitas/
+02:11:11	Federico Stasi:	https://github.com/FedericoStasi/Preentrega-3-Final-Stasile falta mucho estilo pero asi vamos
+02:11:35	Belen Espalter Gonzalez:	https://belenespalter.github.io/Es-p/
+02:11:36	Salvador Matias Fernandez:	Replying to "Si estoy usando la v..."
+
+Joya Gracias Fran!!!
+02:11:43	Manuel Rodriguez:	tengo un problema que no se como arreglar
+02:11:44	Franco Facchini:	Reacted to "Joya Gracias Fran!!!" with 👍
+02:11:44	[TUTOR] Thiago Sosa:	10 días de corrido
+02:11:48	Javier Alejandro Tevez:	https://javiertevez.github.io/PreEntrega3-Tevez/
+02:12:04	Bruno Fazzari:	Esa ram está a full en pestañas jaja
+02:12:09	Jose Suarez:	https://josesuarez1715.github.io/proyecto_dw/
+02:12:10	Franco Gatti Candelero:	PROYECTO FINALProyecto FinalPENDIENTE   VENCE EL VIERNES 24/05/2024 A LAS 23:59HS
+02:12:15	CLAUDIO MARCELO CARABELLA:	Miri Quintero Ph (claudiocarabella.github.io)
+02:12:20	Franco Facchini:	Replying to "Esa ram está a full ..."
+
+yo en un día cotidiano de trabajo
+02:12:33	Franco Facchini:	Replying to "Esa ram está a full ..."
+
+el servidor de la oficina que hostea mi virtual se quiere morir
+02:12:33	Florencia Salgado:	lo de subirlo a un hoting no va no?con el git nos arreglamos?
+02:13:15	Franco Facchini:	Replying to "lo de subirlo a un h..."
+
+en realidad si hay que subirlo, es uno de los puntos, vos presentás si querés la versión de Git, pero tiene que estar subido
+02:13:33	Luciano Sciarrabba:	viendo algunas paginas, me doy cuenta que la mia es pésima jajaaj
+02:13:38	Lucas Da Cruz:	EL mio perdió le sass en el camino de instalación..
+02:13:39	Lucas Da Cruz:	https://lucasdc93.github.io/Pre-entrega--3-Lucas-da-Cruz--53680/
+02:13:55	Franco Gatti Candelero:	Replying to "viendo algunas pagin..."
+
+Mejor asi te nutris de mas ideas
+02:13:59	Francisco Giovanaz Romero:	Joya, entonces puedo entregar hoy y voy haciendo push
+02:14:11	Luciano Sciarrabba:	Replying to "viendo algunas pagin..."
+
+si, serán robados jajaja
+02:14:17	Luciano Sciarrabba:	Replying to "viendo algunas pagin..."
+
+plaggio di plaggio
+02:14:22	Juan Rabuffetti:	Replying to "viendo algunas pagin..."
+
+pensa que hay gente que ya sabe programar de antes
+02:14:48	Franco Facchini:	Replying to "viendo algunas pagin..."
+
+pensá que algunos ya hicieron cursos de diseño, asique saben qué pega más o que cosas son más atractivas o que paletas de colores manejar y cómo
+02:14:57	Jordan Aguirre:	sii, gracias por la observación
+02:15:17	Alejo Tejera:	tejeraca.github.io/ProyectoSASS/
+02:15:18	Florencia Salgado:	Replying to "lo de subirlo a un h..."
+
+Ah perfecto, lo subo al Git como venimos haciendo.Mas q nada porq a los hosting gratuitos no les tengo confianza, ya lo comprobaos en la clase jajaj
+02:15:37	Franco Facchini:	Replying to "lo de subirlo a un h..."
+
+@[TUTOR] Thiago Sosa vendría bien una confirmación, just in case
+02:15:39	Luciano Sciarrabba:	Replying to "viendo algunas pagin..."
+
+no sabia eso. pensé que todos arrancábamos de 0
+02:16:00	Fiorella Taffarel:	Reacted to plaggio di plaggio with "😂"
+02:16:09	Juan Rabuffetti:	Replying to "viendo algunas pagin..."
+
+yo por ej ya tengo un conocimiento previo
+02:16:22	Franco Facchini:	Replying to "viendo algunas pagin..."
+
+yo se programar, pero no se nada de diseño, y se nota en mi página
+02:16:33	Franco Facchini:	Replying to "viendo algunas pagin..."
+
+es muy....dura
+02:16:40	Franco Gatti Candelero:	Replying to "viendo algunas pagin..."
+
+@Luciano Sciarrabba yo también arranque de 0 pero mi pagina es practcamente la copia de otra marca jajaja
+02:16:54	Cristian Bernal:	https://bernalcr.github.io/Proyecto_DesarrolloWeb-Cristian_Bernal/pages/plans.html (aun faltan cosas)
+02:17:03	Jordan Aguirre:	gracias por la devolución! me sirve toda la data
+02:17:05	Luciano Sciarrabba:	Replying to "viendo algunas pagin..."
+
+@Luciano Sciarrabba yo también arranque de 0 pero mi pagina es practcamente la copia de otra marca jajajasomos dos
+02:17:09	Luciano Sciarrabba:	Replying to "viendo algunas pagin..."
+
+jajaja
+02:17:10	Bruno Fazzari:	Si mio
+02:17:35	Franco Facchini:	Replying to "gracias por la devol..."
+
+fíjate Jordan que en el footer seguramente copiaste y pegaste porque se repite, pero en las páginas internas cambian los llamados a las imágenes, me pasó lo mismo jajaja
+02:17:59	Bruno Fazzari:	La pucha jaja
+02:18:16	Franco Facchini:	es obligatorio eso? ya cuando lleguemos al mío explico porqué la pregunta
+02:18:46	[TUTOR] Thiago Sosa:	fíjense lo importante qué es el contenido en lapagina de incio, es la primera impresión del cliente
+02:18:52	Franco Gatti Candelero:	Cuanto contenido
+02:18:56	[TUTOR] Thiago Sosa:	es importante que esté bien hecha
+02:19:02	Aixa Berrio:	https://aixaberrio.github.io/proyecto-entrega-3/
+02:19:31	Bruno Fazzari:	Gracias
+02:19:32	Franco Gatti Candelero:	Esa es mia :s
+02:20:52	Franco Gatti Candelero:	Si ajsjajsa
+02:21:13	Franco Gatti Candelero:	Oks si
+02:21:24	Franco Gatti Candelero:	Gracias!! :)
+02:21:24	Francisco Giovanaz Romero:	Soy yo
+02:21:41	Luciano Sciarrabba:	me imagine al cliente diciendo "queremos que den su opinión pero no queremos saberla" y el loco no le ponía enviar
+02:21:48	Gonzalo Rodriguez:	Eva!
+02:22:12	Francisco Giovanaz Romero:	Faltan cosas igual
+02:22:17	Francisco Giovanaz Romero:	Todavía no hice push
+02:22:20	Augusto Soto Jeria:	https://sotojeriaaugusto.github.io/index.html
+02:22:21	Franco Gatti Candelero:	Replying to "me imagine al client..."
+
+Es para hacer creer que nos importa su consulta
+02:22:34	Luciano Sciarrabba:	Replying to "me imagine al client..."
+
+jjajajajaj
+02:22:41	Diego Ortiz:	https://dortiz.github.io/pltgrafica/
+02:23:07	Diego Ortiz:	falta todavía varias cosas que me resalto thiago pero para ver que onda como voy
+02:23:14	Francisco Giovanaz Romero:	Ok
+02:23:22	Agustín Pérez:	https://agustineperez.github.io/PreEntrega3-Perez/
+02:23:23	Francisco Giovanaz Romero:	Me faltó cositas en el menu
+02:23:29	Francisco Giovanaz Romero:	Dale.
+02:24:32	Fernando Ledesma Sánchez:	https://ledesmafernando.github.io/PreEntrega3Ledesma/
+02:24:38	Francisco Giovanaz Romero:	Faltan cositas para subir.
+02:24:59	Francisco Giovanaz Romero:	Tengo que hacer push pero todavía tengo cosas que modificar.
+02:25:45	Luciano Sciarrabba:	asi es
+02:25:47	Juan Rabuffetti:	como pongo eso de GitHub?
+02:25:48	Luciano Sciarrabba:	mio mio
+02:25:57	Christian Fortes:	Replying to "como pongo eso de Gi..."
+
+en la tuerca de about
+02:26:00	Christian Fortes:	Replying to "como pongo eso de Gi..."
+
+te paso img
+02:26:02	Franco Facchini:	Replying to "como pongo eso de Gi..."
+
+desde la parte de settings, hay una parte que es pages
+02:26:06	Franco Facchini:	Replying to "como pongo eso de Gi..."
+
+ahí activas pages
+02:26:13	Luciano Sciarrabba:	eso!
+02:26:15	Luciano Sciarrabba:	el footer
+02:26:18	Franco Facchini:	Replying to "como pongo eso de Gi..."
+
+y luego, en about, activás que el pages que se genera se use como link
+02:26:19	Luciano Sciarrabba:	no me salio
+02:26:23	Christian Fortes:	Replying to "como pongo eso de Gi..."
+
+activas el que dice githubpages
+02:27:25	Juan Rabuffetti:	Replying to "como pongo eso de Gi..."
+
+no ubico
+02:27:27	Franco Facchini:	Replying to "como pongo eso de Gi..."
+
+antes de eso que te dice Christian tenés que prender Pages. te dejo captura
+02:27:46	Luciano Sciarrabba:	mira vo!
+02:28:06	Franco Facchini:	Replying to "como pongo eso de Gi..."
+
+no se si se subió la captura
+02:28:12	Franco Facchini:	Replying to "como pongo eso de Gi..."
+
+ahi ta
+02:28:14	Juan Rabuffetti:	Replying to "como pongo eso de Gi..."
+
+sisi
+02:28:18	Juan Rabuffetti:	Replying to "como pongo eso de Gi..."
+
+pero no se que tocar
+02:28:33	Franco Facchini:	Replying to "como pongo eso de Gi..."
+
+estás en el grupo de WP?
+02:28:36	Juan Rabuffetti:	Replying to "como pongo eso de Gi..."
+
+no
+02:28:53	Luciano Sciarrabba:	gracias!!
+02:29:11	Franco Facchini:	Replying to "como pongo eso de Gi..."
+
+https://chat.whatsapp.com/FGJDsB1PIyGBoZB1OmOvjH
+02:29:20	Franco Facchini:	Replying to "como pongo eso de Gi..."
+
+si aún no podés activarlo, luego de la clase te respondo por ahí con un videito
+02:29:28	Florencia Salgado:	Flor Salgado
+02:29:51	Franco Gatti Candelero:	que fachero rodolfo
+02:29:53	Juan Rabuffetti:	Replying to "como pongo eso de Gi..."
+
+ahi entre
+02:30:00	Florencia Salgado:	jaja si tengo todo con txt provisorios 😅
+02:30:07	Florencia Salgado:	bueniismo lo del footer👏
+02:30:12	Luciano Sciarrabba:	el loco metio doble anillo
+02:30:29	Juan Rabuffetti:	Replying to "como pongo eso de Gi..."
+
+que toco ahi
+02:30:37	Federico Stasi:	perdonn se me reinicio la pc jeje
+02:30:42	Camila Gallegos:	https://github.com/CamiGallegos/DesarrolloWeb.git
+02:30:55	Florencia Salgado:	aia
+02:30:57	Florencia Salgado:	jajaja
+02:31:08	Alejo Tejera:	no tengo coments, es necesario agregarlos?
+02:31:08	Florencia Salgado:	si😅
+02:31:26	Sebastian Fernandez:	mia
+02:31:50	Sebastian Fernandez:	ok
+02:32:05	Federico Stasi:	creo q es de boca jaja
+02:32:16	Iñaki Palacios:	Reacted to creo q es de boca ja... with "😂"
+02:32:24	Tomás Dumont:	Replying to "creo q es de boca ja..."
+
+Bostero el loco
+02:32:27	Franco Facchini:	Replying to "creo q es de boca ja..."
+
+intenso el contraste de la paleta de colores
+02:32:35	Sebastian Fernandez:	si no lo encuentro
+02:32:38	Mauro Romano:	DALEEE BOOOOCA
+02:32:47	Christian Fortes:	Reacted to "DALEEE BOOOOCA" with 😯
+02:32:48	Sebastian Fernandez:	ok
+02:32:49	Franco Facchini:	Replying to "DALEEE BOOOOCA"
+
+Vamos Bover!!!!
+02:32:50	Franco Facchini:	Replying to "DALEEE BOOOOCA"
+
+XD
+02:32:52	Federico Stasi:	boooooooooooooooke
+02:32:55	Mauro Romano:	Reacted to "Vamos Bover!!!!" with 😂
+02:33:06	Mauro Romano:	Reacted to "boooooooooooooooke" with ❤️
+02:33:08	Christian Fortes:	Replying to "DALEEE BOOOOCA"
+
+💀
+02:33:09	Sebastian Fernandez:	perfecto
+02:33:12	Sebastian Fernandez:	sisi
+02:33:37	Luciano Sciarrabba:	profe
+02:33:47	Luciano Sciarrabba:	porque con vh y no %?
+02:33:51	Luciano Sciarrabba:	para lo del minimo alto
+02:34:08	Luciano Sciarrabba:	consulto porque yo use mucho %
+02:34:45	Alejo Tejera:	Yo uso % y me re dio una mano con Responsive
+02:34:50	Fiorella Taffarel:	https://taffarelf.github.io/clase-13/
+02:35:12	Luciano Sciarrabba:	Yo uso % y me re dio una mano con Responsiveclaro, yo también
+02:35:23	Luciano Sciarrabba:	siempre toma el navegador
+02:35:25	Luciano Sciarrabba:	claro
+02:35:31	Sebastian Fernandez:	sisi
+02:36:31	Sebastian Fernandez:	tengo que hacerlo desplegable
+02:36:56	Alejo Tejera:	tejeraca.github.io/ProyectoSASS/
+02:37:03	Sebastian Fernandez:	perfecto
+02:37:08	Sebastian Fernandez:	gracias profe
+02:38:27	Maria Lidia Besson:	ok
+02:39:03	Maria Lidia Besson:	gracias!!
+02:39:41	Luciano Sciarrabba:	tope de gama esta
+02:40:05	Luciano Sciarrabba:	muy buena
+02:40:17	Alejo Tejera:	joya nunca taxi
+02:40:44	Franco Caraballo:	gracias profe!
+02:40:48	Salvador Matias Fernandez:	Es excelente
+02:41:06	Christian Fortes:	dale F5 a mi GitHub profe así te aparece en about la pag
+02:41:20	Luciano Sciarrabba:	👏👏
+02:41:31	Christian Fortes:	ahiva
+02:42:20	Christian Fortes:	muchas gracias
+02:42:26	Christian Fortes:	nono esta grande la typo
+02:43:21	Luciano Sciarrabba:	esta barbara tambien
+02:43:32	Héctor Javier:	tengo que modificar algunas imágeneshttps://hjmontenegro.github.io/TercerEntrega_DesaWeb/inicio y nosotros
+02:43:46	Christian Fortes:	probala sin drama
+02:43:47	Christian Fortes:	jsjsa
+02:43:51	Christian Fortes:	muchas gracias
+02:43:53	Franco Facchini:	esta es en mi opinión la más flama de todas
+02:43:59	Christian Fortes:	Reacted to "esta es en mi opinió..." with ❤️
+02:44:00	Franco Facchini:	desde la paleta, el diseño, todo
+02:44:15	Matias Calvar:	yo yo
+02:44:18	Matias Calvar:	aca estoy
+02:44:19	Matias Calvar:	matias
+02:44:23	Christian Fortes:	Replying to "esta es en mi opinió..."
+
+gracias pana
+02:46:36	Franco Facchini:	Replying to "esta es en mi opinió..."
+
+honestidad pura, hasta me da vergüenza la mía a esta altura jajajaj
+02:46:50	Francisco Giovanaz Romero:	Replying to "esta es en mi opinió..."
+
+@Franco Facchini Estamos igual.
+02:47:15	Matias Calvar:	no no
+02:47:20	Matias Calvar:	no tienen
+02:47:28	Matias Calvar:	aja
+02:48:09	Matias Calvar:	si es que a esa parte le falta las animacviones
+02:48:12	Matias Calvar:	y el contenido
+02:48:26	Christian Fortes:	Replying to "esta es en mi opinió..."
+
+na, no digan eso, todas tienen su encanto
+02:48:30	Juan Rabuffetti:	algun tutor me puede dar una mano con tema git hub pages?
+02:48:40	[TUTOR] Thiago Sosa:	Replying to "algun tutor me puede..."
+
+si juan
+02:48:45	[TUTOR] Thiago Sosa:	Replying to "algun tutor me puede..."
+
+háblame en la plataforma al privado
+02:48:49	Juan Rabuffetti:	Replying to "algun tutor me puede..."
+
+dale
+02:49:23	Juan Rabuffetti:	Replying to "algun tutor me puede..."
+
+como te busco
+02:49:34	[TUTOR] Thiago Sosa:	Replying to "algun tutor me puede..."
+
+estoy como Thiago sosa
+02:49:57	Juan Rabuffetti:	Replying to "algun tutor me puede..."
+
+ahi te escribi
+02:51:01	Franco Facchini:	ese es mío
+02:51:34	Alejo Tejera:	Replying to "ese es mío"
+
+Dale que va
+02:51:35	Franco Facchini:	eso está sin terminar
+02:51:41	Franco Facchini:	mildis
+02:51:55	Lucila Corvalan:	https://lucilaa-c.github.io/entrega-sc/
+02:51:59	Alejo Tejera:	tejeraca.github.io/ProyectoSASS/
+02:51:59	Franco Facchini:	el menu es doblemente desplegable, si suma algo jajaja
+02:52:52	Franco Facchini:	mmm como se rompió ahi no me gustó
+02:53:42	Alejo Tejera:	Joha, chequeate el mio al final porfa tejeraca.github.io/ProyectoSASS/
+02:53:56	Franco Facchini:	lo tengo en cuenta
+02:54:09	Franco Facchini:	gracias
+02:54:22	Manuel Rodriguez:	profe
+02:54:37	Manuel Rodriguez:	el la pagina de contacto se me rompió el cdn de tailwind
+02:55:13	Manuel Rodriguez:	no aparece el navbar
+02:55:26	Manuel Rodriguez:	me da problemas con boostrap
+02:56:03	Manuel Rodriguez:	estoy haciendo un form nuevo con boostrap
+02:56:29	Christian Fortes:	Replying to "el la pagina de cont..."
+
+tailwind??
+02:56:39	Lucila Corvalan:	https://lucilaa-c.github.io/entrega-sc/
+02:57:03	Manuel Rodriguez:	muchas gracias
+02:57:09	Franco Facchini:	profe, una consulta que me quedó con el tema del responsive. No se porqué en mi PC al achicarlo no se rompe de la misma manera que le pasaba a ud.
+02:57:15	Franco Facchini:	que puede causar tal diferencia?
+02:57:26	Alejo Tejera:	tejeraca.github.io/ProyectoSASS/
+02:57:26	Luciano Sciarrabba:	Replying to "muchas gracias"
+
+esta buena manu!
+02:58:10	Luciano Sciarrabba:	Replying to "muchas gracias"
+
+yo también tuve problemas para hacer quedar el navbar de boostrap
+02:58:32	Tobias Freytag:	https://totofreytag2707.github.io/tercera-pre-entraga/
+02:58:45	Tobias Freytag:	le falta un poco pero bueno
+02:58:59	Luciano Sciarrabba:	muy buena la de maschango
+02:59:04	Luciano Sciarrabba:	changomenos
+02:59:11	Leonardo Fernandez:	Profe. Podes subir el after de hoy. gracias
+02:59:13	Luciano Sciarrabba:	carritomas
+02:59:31	Profesor Coderhouse:	Replying to "Profe. Podes subir e..."
+
+Leo, estará incorporado en la grabación de esta misma clase!
+02:59:44	Daniela Iuorio:	@[TUTOR] Thiago Sosa Me da pena irme de la última clase pero mi flia me necesita...
+03:00:02	Daniela Iuorio:	@Profesor Coderhouse Joha, gracias por todo! Un gusto, saludos!!!
+03:00:41	Daniela Iuorio:	@[TUTOR] Thiago Sosa lo mismo, muchas gracias por todo, quedamos en contacto en la plataforma para la entrega final.
+03:08:23	Profesor Coderhouse:	Reacted to "@Profesor Coderhouse..." with 🥰
+03:08:54	Lucila Corvalan:	https://lucilaa-c.github.io/entrega-sc/
+03:08:56	Juan Rabuffetti:	https://github.com/JuanPRabuffetti/-JuanPRabuffetti-PreEntrega3-Rabuffetti
+03:09:03	Iñaki Palacios:	Hola profe esa es mia
+03:09:36	Iñaki Palacios:	No puedo poner la letra negra ahí en el menu
+03:10:25	Sofia Crivisqui:	https://sofiacrivisqui.github.io/preentrega3/
+03:11:16	Iñaki Palacios:	Joya profe
+03:11:45	Iñaki Palacios:	Gracias
+03:16:24	Javier Alejandro Tevez:	yoo
+03:16:31	Javier Alejandro Tevez:	no se por q no aparecen esas imagenes
+03:16:46	Javier Alejandro Tevez:	en el inicio
+03:16:47	Javier Alejandro Tevez:	digo
+03:16:56	Javier Alejandro Tevez:	abajo
+03:17:04	Javier Alejandro Tevez:	ves q dice el alt
+03:17:07	Javier Alejandro Tevez:	claro
+03:17:15	[TUTOR] Thiago Sosa:	es la ruta seguro
+03:17:16	Javier Alejandro Tevez:	en el proyecto las veo bien
+03:17:21	Javier Alejandro Tevez:	pero las subo y sale mal
+03:17:22	[TUTOR] Thiago Sosa:	Replying to "en el proyecto las v..."
+
+ojo
+03:17:24	[TUTOR] Thiago Sosa:	Replying to "en el proyecto las v..."
+
+live server
+03:17:32	[TUTOR] Thiago Sosa:	Replying to "en el proyecto las v..."
+
+muestra cosas que son errores
+03:17:33	Javier Alejandro Tevez:	claro en el live server
+03:17:39	[TUTOR] Thiago Sosa:	Replying to "en el proyecto las v..."
+
+o mismo te falta subir las fotos
+03:18:09	Javier Alejandro Tevez:	https://github.com/javiertevez/PreEntrega3-Tevez
+03:18:27	Javier Alejandro Tevez:	sii es raro
+03:19:19	Javier Alejandro Tevez:	no quiere andar jhaja
+03:19:48	Javier Alejandro Tevez:	gracias!
+03:19:54	Javier Alejandro Tevez:	jaja si
+03:20:23	Javier Alejandro Tevez:	aaah
+03:20:38	Javier Alejandro Tevez:	mira el detalle jaja
+03:20:41	Javier Alejandro Tevez:	claro
+03:20:50	Javier Alejandro Tevez:	buenisimo estrellita
+03:20:50	[TUTOR] Thiago Sosa:	jajaja
+03:20:51	Javier Alejandro Tevez:	jajaja
+03:21:24	Javier Alejandro Tevez:	okaa
+03:21:27	Javier Alejandro Tevez:	gracias!
+03:21:29	Jose Suarez:	esa es mia
+03:21:50	Jose Suarez:	ok
+03:22:11	Jose Suarez:	grid adentro del acordeon del bootstrap
+03:22:40	Jose Suarez:	ok
+03:23:16	Jose Suarez:	novedades, el ancho lo tengo q arreglar
+03:23:56	CLAUDIO MARCELO CARABELLA:	hola
+03:24:58	CLAUDIO MARCELO CARABELLA:	el tema del p arrafo en sobre mi
+03:25:43	CLAUDIO MARCELO CARABELLA:	ahh
+03:25:59	CLAUDIO MARCELO CARABELLA:	micro?
+03:26:00	Franco Facchini:	recomendación con logos, buscalos en bootstrap
+03:26:04	Franco Facchini:	perdón iconos
+03:26:08	CLAUDIO MARCELO CARABELLA:	no me fije
+03:26:14	CLAUDIO MARCELO CARABELLA:	y esta solo 1
+03:26:41	CLAUDIO MARCELO CARABELLA:	te comparto pantalla
+03:27:00	CLAUDIO MARCELO CARABELLA:	ok
+03:27:20	CLAUDIO MARCELO CARABELLA:	gracias
+03:27:28	Lucas Da Cruz:	yop
+03:27:53	Lucas Da Cruz:	bien profe
+03:28:11	Lucas Da Cruz:	tuve problemas con la instalación de sass jeje
+03:29:01	Lucas Da Cruz:	bien
+03:29:45	Lucas Da Cruz:	gracias profe! tengo qe meterle!
+03:30:33	Cristian Bernal:	Al hacer click al logo va al home
+03:30:39	Cristian Bernal:	Envíe el link que no era hehe
+03:31:39	Cristian Bernal:	A servicios y nosotros solo alcancé a meter el contenido
+03:32:27	Aixa Berrio:	yoo
+03:32:50	Salvador Matias Fernandez:	Gracias profes! Tengo que irme. Saludos a todos
+03:32:50	Javier Alejandro Tevez:	pastel
+03:33:00	[TUTOR] Thiago Sosa:	Replying to "yoo"
+
+Aixa fíjate que te puse para que me hables por privado!
+03:35:00	Diego Ortiz:	mio, falta un par de retoques en contenidos e imágenes del index que se repiten con productos
+03:35:04	Augusto Soto Jeria:	Much appreciated
+03:35:24	Diego Ortiz:	grafica e imprenta
+03:36:08	Diego Ortiz:	eso es un carousel
+03:36:13	Diego Ortiz:	ero no se que le pasa que no incia
+03:37:00	Diego Ortiz:	gracias
+03:37:31	Sebastian Fernandez:	profe los puedo dejar me salio un problema en el trabajo y me están llamando
+03:37:31	Aixa Berrio:	Replying to "yoo"
+
+hola profe si! gracias!
+03:38:22	Sebastian Fernandez:	muchas gracias a los tutores por todo y ya mañana me pongo a terminar y mejorar la paguina para la entrega
+03:38:58	[TUTOR] Thiago Sosa:	Reacted to "muchas gracias a los..." with ❤️
+03:41:43	Lucas Da Cruz:	😁
+03:41:55	Camila Gallegos:	Muchas gracias Profe!!
+03:44:31	Alejo Tejera:	Replying to "Screenshot 2024-05-14 at 205742.png"
+
+impecable
+03:44:40	Héctor Javier:	Yo, productos dolo camas, preguntas frecuentes y contactos no están aun
+03:44:47	Héctor Javier:	refresca
+03:45:28	Héctor Javier:	productos camas
+03:45:53	Héctor Javier:	Gracias
+03:46:11	Sofia Crivisqui:	https://sofiacrivisqui.github.io/preentrega3/
+03:46:15	Leonardo Fernandez:	Muchas gracias por todo. super agradecido.
+03:46:39	Lucila Corvalan:	ahí tuve problemas para achicar las imagenes
+03:46:54	Lucila Corvalan:	y en contacto el footer no lo puedo bajar
+03:47:07	Maria Lidia Besson:	Gracias por todo, me tengo que retirar, un gusto la cursada!!!❤️
+03:47:55	Tobias Freytag:	se me bloqueo la pagina y no se q hacer
+03:48:09	[TUTOR] Thiago Sosa:	el link del repo habría que ver
+03:48:19	Mauro Romano:	perritos, tenemos un grupo con los de esta comi
+03:48:26	Mauro Romano:	si alguno quiere seguir en contacto la seguimos por ahi
+03:48:34	Mauro Romano:	y de paso nos segundeamos en github
+03:48:53	Tobias Freytag:	desde donde puedo verlo?
+03:48:54	Lucila Corvalan:	una pregunta los wireframes se van a evaluar también
+03:48:54	CLAUDIO MARCELO CARABELLA:	bravooo
+03:48:56	Lucila Corvalan:	?
+03:49:01	[TUTOR] Thiago Sosa:	Replying to "desde donde puedo ve..."
+
+el repositorio?
+03:49:03	[TUTOR] Thiago Sosa:	Replying to "desde donde puedo ve..."
+
+desde github
+03:49:05	Héctor Javier:	👏🏼
+03:49:07	Tobias Freytag:	Replying to "desde donde puedo ve..."
+
+si
+03:49:07	CLAUDIO MARCELO CARABELLA:	gracias profee
+03:49:09	Tobias Freytag:	Replying to "desde donde puedo ve..."
+
+estoy ahi
+03:49:10	[TUTOR] Thiago Sosa:	Replying to "una pregunta los wir..."
+
+si
+03:49:11	Lucas Da Cruz:	🥹
+03:49:18	Fiorella Taffarel:	Graciasss profe
+03:49:19	Augusto Soto Jeria:	PRACTIQUEN
+03:49:19	CLAUDIO MARCELO CARABELLA:	seguimos en contacto !!!
+03:49:20	[TUTOR] Thiago Sosa:	Replying to "desde donde puedo ve..."
+
+manda el link del repositorio
+03:49:21	Fiorella Taffarel:	Gracias tutores
+03:49:23	[TUTOR] Juan Narvaez:	Felicitaciones chicos, muchos exitos en este nuevo mundo!
+03:49:24	Florencia Salgado:	aww muy bueno el curso gracias!!!!!!!
+03:49:26	Javier Alejandro Tevez:	sos una genia joha!
+03:49:28	Christian Fortes:	Muchas gracias, un placer haber trabajado y estudiado en este curso!
+03:49:29	Matias Calvar:	gracias
+03:49:29	Lucila Corvalan:	muchas graciass
+03:49:31	CLAUDIO MARCELO CARABELLA:	gracias tutores !!!!
+03:49:32	[TUTOR] Thiago Sosa:	cualquier cosa nos pueden consultar siempre
+03:49:38	Sofia Crivisqui:	Excelente curso ❤️
+03:49:38	Javier Alejandro Tevez:	y gracias tutoress
+03:49:39	Fiorella Taffarel:	Pasa la playlist por última vez johaaaaa
+03:49:40	Augusto Soto Jeria:	@[TUTOR] Thiago Sosa GENIOO!!!! 24/7 laburando
+03:49:42	Lucas Da Cruz:	Gracias profe! Tutores, una grata experiencia! a los compañeros tambien
+03:49:49	Christian Fortes:	Gracias Tutor Thiago por todo
+03:49:51	CLAUDIO MARCELO CARABELLA:	gracias thiagooo
+03:50:07	Lucila Corvalan:	thiago un genio, siempre muy atento y con mucha paciencia
+03:50:23	Camila Gallegos:	Gracias por el acompañamiento Joa! Al igual que Thiago!!!
+03:50:26	Jordan Aguirre:	muchas gracias a todos, un lujazo la cursada!
+03:50:42	Bruno Fazzari:	Crack Thiago ! 💪
+03:51:08	Jordan Aguirre:	en especial para Juan que lo atormenté a preguntas y siempre estuvo dispuesto a resolver mis dudas
+03:51:12	CLAUDIO MARCELO CARABELLA:	seguiremos consultándote !!!
+03:51:23	Mauro Romano:	Thiago, gracias por ser mi tutor perri, Super agradecido ♥️
+03:51:29	Francisco Giovanaz Romero:	¿Puedo decir algo?
+03:51:29	CLAUDIO MARCELO CARABELLA:	gracias !!!
+03:51:41	[TUTOR] Thiago Sosa:	Reacted to "Thiago, gracias por ..." with ❤️
+03:51:45	Luciano Sciarrabba:	gracias thiagoÇ!
+03:51:53	Florencia Salgado:	gracias a los tutores tambien!!
+03:52:14	Fiorella Taffarel:	Gracias Juan por ser mi tutor ✌🏼
+03:52:18	Franco Gatti Candelero:	vamos juan carajo nomas
+03:52:19	Diego Ortiz:	gracias a todos
+03:52:20	Javier Alejandro Tevez:	gracias juaan
+03:52:23	Diego Ortiz:	maestrossss
+03:52:26	Francisco Giovanaz Romero:	Una recomendación mas que nada.
+03:52:32	Diego Ortiz:	abrazo a todos y éxitos para todos
+03:52:35	Lucas Da Cruz:	gracias gracias gracias
+03:52:40	Mauro Romano:	Reacted to "Una recomendación ma..." with ❤️
+03:53:00	Christian Fortes:	Capaz no le agarra el mic
+03:56:35	Franco Gatti Candelero:	Perdon yo me despido porque juega el mas grande de argentina lejos
+03:56:46	[TUTOR] Thiago Sosa:	Reacted to "Perdon yo me despido..." with ❤️
+03:56:52	Fiorella Taffarel:	Replying to "Perdon yo me despido..." 
+
+ Booooca boooca
+03:56:59	Franco Gatti Candelero:	Les agradezco su motivación para enseñarnos, nos vemos en la entrega final
+03:57:13	Franco Gatti Candelero:	Replying to "Perdon yo me despido..."
+
+@Fiorella Taffarel no se, hoy hay libertadores
+03:57:42	Fiorella Taffarel:	Replying to "Perdon yo me despido..." 
+
+ 💙💛
+03:57:59	Christian Fortes:	Reacted to "Booooca boooca" with 💀
+03:58:19	Christian Fortes:	detalles mas claros
+03:58:27	Camila Gallegos:	Chárlalo por el chat Francisco, así terminamos la clase y nos despedimos  porfi
+03:58:58	Francisco Giovanaz Romero:	Reacted to "Chárlalo por el chat..." with 👍
+03:59:04	Mauro Romano:	Replying to "Perdon yo me despido..."
+
+@Fiorella Taffarel agradable sujeta
+03:59:05	CLAUDIO MARCELO CARABELLA:	siempre se puede mejorar !!!
+03:59:27	[TUTOR] Thiago Sosa:	métanle que es el ultimo pasito
+03:59:31	Fiorella Taffarel:	Reacted to @Fiorella Taffarel a... with "❤️"
+03:59:32	Héctor Javier:	Saludos, felicitaciones a todos !!!
+03:59:37	CLAUDIO MARCELO CARABELLA:	hasta cuando hay tiempo?
+03:59:38	Mauro Romano:	Quiero agradecer a los compañeros que me toco en esta cursada, son todos muy genios!
+03:59:42	Fiorella Taffarel:	Felicitaciones colegas
+03:59:42	Bruno Fazzari:	Gracias Joha !
+03:59:45	Luciano Sciarrabba:	thiago, prometo corregir todo lo de la ultima entrega jaja
+03:59:46	[TUTOR] Thiago Sosa:	tienen 10 días de corrido
+03:59:48	Christian Fortes:	Muchas gracias
+03:59:48	Fiorella Taffarel:	Gracias tutores, gracias Joha
+03:59:49	CLAUDIO MARCELO CARABELLA:	ok
+03:59:51	[TUTOR] Thiago Sosa:	Reacted to "thiago, prometo corr..." with 🙌
+03:59:51	CLAUDIO MARCELO CARABELLA:	genial
+03:59:51	Florencia Salgado:	gracias nuevamente!!!
+03:59:54	Fiorella Taffarel:	Nos vemos en javA
+03:59:54	Luciano Sciarrabba:	perdón si alguna vez me puse insistente!
+03:59:58	CLAUDIO MARCELO CARABELLA:	gracias a todos !!!
+04:00:06	Bruno Fazzari:	Bye !
+04:00:09	Lucas Da Cruz:	los voy a extrañar
+04:00:12	Javier Alejandro Tevez:	gracias a todoooos!!
+04:00:13	Belen Espalter Gonzalez:	muchas gracias profes!!
+04:00:13	Juan Saravi:	Gracias a todos!
+04:00:16	Francisco Giovanaz Romero:	Genial saludos a todos.
+04:00:16	Florencia Salgado:	besooo
+04:00:17	Jordan Aguirre:	nos vemos profe, gracias por todo de corazonn
+04:00:18	[TUTOR] Thiago Sosa:	fue un placerr
+04:00:19	Javier Alejandro Tevez:	chau!!!
+04:00:19	Franco Facchini:	saludo!!!!
+04:00:19	Franco Caraballo:	gracias profe!!
+04:00:20	Luciano Sciarrabba:	gracias profe!
+04:00:21	Christian Fortes:	Chauu
+04:00:21	Francisco Giovanaz Romero:	Chau chau

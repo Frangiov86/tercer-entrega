@@ -1,36 +1,27 @@
-.imagenestitulos{
+.imagenestitulos {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
-    align-content: space-around;
     align-items: center;
-    
-    }
 
-    .cuadrotextoimagen img{
-        height: 500px;
-    }
-    
-    h1{
+}
 
-        text-align: center;
-        margin-top: 20px;
-        
-        } 
-            .footer{
-                    font-size: 11px;
-            }
-    
-    .cuadrotextoimagen h3{
-        font-family: "Bree+Serif", serif;
-        font-size: 30px;
-        margin-bottom: 30px;
-        
-    
-    }
-    
-    .cuadrotextoimagen{
+.cuadrotextoimagen img {
+    height: 500px;
+
+}
+
+
+.cuadrotextoimagen h3 {
+    font-family: "Bree+Serif", serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+
+
+}
+
+.cuadrotextoimagen {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,5 +29,1348 @@
     border: solid 4px;
     border-radius: 20px;
     padding: 20px;
-    margin: 20px;  
+    margin: 20px;
+}
+
+.parrafopersonajes {
+    background-color: black;
+    color: $grises;
+
+    b {
+        color: $letrasblancas;
     }
+}
+
+.contenedor {
+    text-align: center;
+    /* Centra el texto horizontalmente */
+}
+
+.contenedor h1 {
+    font-size: 2em;
+    /* Tamaño de fuente */
+    margin: 0;
+    /* Elimina el margen predeterminado del párrafo */
+    padding: 10px;
+    /* Agrega un poco de espacio alrededor del texto */
+    width: 80%;
+    /* Define el ancho máximo del contenedor */
+    max-width: 600px;
+    /* Define el ancho máximo del contenedor */
+    margin: 0 auto;
+    /* Centra el contenedor horizontalmente */
+}
+
+
+
+
+
+.cuadrotextoimagen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid 4px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    width: fit-content (300px);
+
+}
+
+.cuadrotextoimagen h3 {
+    font-family: "Bree+Serif", serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+
+
+}
+
+.contenedorflexpersonajes {
+    display: flex;
+    flex-direction: column;
+}
+
+.columna {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    /* Incluye el padding en el ancho total de la columna */
+}
+
+iframe {
+    width: 100%;
+    /* Establece el ancho al 100% del contenedor */
+    height: auto;
+    /* Hace que la altura se ajuste automáticamente manteniendo la relación de aspecto */
+    max-width: 800px;
+    /* Establece un máximo ancho para el video */
+    margin: 0 auto;
+    /* Centra el video horizontalmente */
+    display: block;
+    /* Asegura que el iframe se muestre como un bloque */
+}
+
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.underlined-title {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: inline-block;
+    width: 100%;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+
+
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.image-container {
+    position: relative;
+    width: calc(33.33% - 10px);
+    /* Ancho de cada imagen con un margen entre ellas */
+    margin-bottom: 20px;
+    /* Espacio entre filas */
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.image-container .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+.image-container:target img {
+    transform: scale(1.1);
+}
+
+// ----------------------------------------//
+
+.image-container3 {
+    position: relative;
+    width: calc(33.33% - 10px);
+    /* Ancho de cada imagen con un margen entre ellas */
+    margin-bottom: 20px;
+    /* Espacio entre filas */
+}
+
+.image-container3 img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.image-container3 .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.image-container3:hover .overlay {
+    opacity: 1;
+}
+
+.image-container3:target img {
+    transform: scale(1.1);
+}
+
+
+
+
+// <<<Responsive de pagina personajes>>>//
+
+@media screen and (max-width: 1441px) {
+    .image-container {
+        width: 100%;
+        /* Una imagen por fila en dispositivos móviles */
+    }
+
+
+    iframe {
+        width: 440px;
+        height: 200px;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: block;
+        margin-left: 40px;
+
+    }
+
+    .h5youtube {
+        margin-left: 160px;
+
+
+    }
+
+    .gallery {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .image-container {
+        position: relative;
+        width: calc(33.33% - 10px);
+        /* Ancho de cada imagen con un margen entre ellas */
+        margin-bottom: 30px;
+        /* Espacio entre filas */
+    }
+
+
+    .image-container img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.3s ease;
+        margin-top: 20px;
+        margin-left: -65px;
+    }
+
+    .image-container .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        font-size: 15px;
+        margin-left: -65px;
+    }
+
+
+
+    // Tercera imagen de Galería
+
+    .image-container3 {
+        position: relative;
+        width: calc(33.33% - 10px);
+        /* Ancho de cada imagen con un margen entre ellas */
+        margin-bottom: 20px;
+        /* Espacio entre filas */
+    }
+
+    .image-container3 img {
+        width: 380px;
+        height: auto;
+        transition: transform 0.3s ease;
+        margin-left: -45px;
+        margin-top: 20px;
+
+    }
+
+    .image-container3 .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 380px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        margin-left: -45px;
+        font-size: 15px;
+        margin-bottom: 195px;
+    }
+
+    .image-container3:hover .overlay {
+        opacity: 1;
+    }
+
+    .image-container3:target img {
+        transform: scale(1.1);
+    }
+
+
+    .imagenestitulos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+
+    .cuadrotextoimagen img {
+        height: 500px;
+
+    }
+
+
+
+    .image-container5 {
+        position: relative;
+        width: calc(33.33% - 10px);
+        /* Ancho de cada imagen con un margen entre ellas */
+        margin-bottom: 20px;
+        /* Espacio entre filas */
+    }
+
+    .image-container5 img {
+        width: 245px;
+        height: auto;
+        transition: transform 0.3s ease;
+        margin-left: 120px;
+        margin-top: 20px;
+
+    }
+
+    .image-container5 .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 245px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        margin-left: 120px;
+        font-size: 15px;
+        margin-bottom: -5px;
+    }
+
+    .image-container5:hover .overlay {
+        opacity: 1;
+    }
+
+    .image-container5:target img {
+        transform: scale(1.1);
+    }
+
+
+    .image-container6 {
+        position: relative;
+        width: calc(33.33% - 10px);
+        /* Ancho de cada imagen con un margen entre ellas */
+        margin-bottom: 20px;
+        /* Espacio entre filas */
+    }
+
+    .image-container6 img {
+        width: 350px;
+        height: auto;
+        transition: transform 0.3s ease;
+        margin-bottom: 120px;
+
+    }
+
+    .image-container6 .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 345px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        margin-left: 3px;
+        font-size: 15px;
+        margin-bottom: 240px;
+    }
+
+    .image-container6:hover .overlay {
+        opacity: 1;
+    }
+
+    .image-container6:target img {
+        transform: scale(1.1);
+    }
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .image-container {
+        width: 100%;
+        /* Una imagen por fila en dispositivos móviles */
+    }
+
+
+    iframe {
+        width: 400px;
+        height: 200px;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: block;
+        margin-left: 40px;
+
+    }
+
+    .image-container img {
+        width: 50%;
+        height: auto;
+        transition: transform 0.3s ease;
+        margin-left: 200px;
+        margin-top: 20px;
+    }
+
+    .image-container .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 50%;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        margin-left: 200px;
+        font-size: 15px;
+        margin-bottom: -15px;
+    }
+
+
+
+    // Tercera imagen de Galería
+
+    .image-container3 {
+        position: relative;
+        width: calc(33.33% - 10px);
+        /* Ancho de cada imagen con un margen entre ellas */
+        margin-bottom: 20px;
+        /* Espacio entre filas */
+    }
+
+    .image-container3 img {
+        width: 550px;
+        height: auto;
+        transition: transform 0.3s ease;
+        margin-left: 160px;
+
+    }
+
+    .image-container3 .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 550px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        margin-left: 160px;
+        font-size: 15px;
+        margin-bottom: -5px;
+    }
+
+    .image-container3:hover .overlay {
+        opacity: 1;
+    }
+
+    .image-container3:target img {
+        transform: scale(1.1);
+    }
+
+
+    .image-container5 {
+        position: relative;
+        width: calc(33.33% - 10px);
+        /* Ancho de cada imagen con un margen entre ellas */
+        margin-bottom: 20px;
+        /* Espacio entre filas */
+    }
+
+    .image-container5 img {
+        width: 200px;
+        height: auto;
+        transition: transform 0.3s ease;
+        margin-left: 80px;
+        margin-top: 20px;
+
+    }
+
+    .image-container5 .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 200px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        margin-left: 80px;
+        font-size: 8px;
+        margin-bottom: -5px;
+    }
+
+    .image-container5:hover .overlay {
+        opacity: 1;
+    }
+
+    .image-container5:target img {
+        transform: scale(1.1);
+    }
+
+
+    .image-container6 {
+        position: relative;
+        width: calc(33.33% - 10px);
+        /* Ancho de cada imagen con un margen entre ellas */
+        margin-bottom: 20px;
+        /* Espacio entre filas */
+    }
+
+    .image-container6 img {
+        width: 650px;
+        height: auto;
+        transition: transform 0.3s ease;
+        margin-left: 130px;
+        margin-bottom: 120px;
+
+    }
+
+    .image-container6 .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 700px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        margin-left: 110px;
+        font-size: 10px;
+        margin-bottom: 107px;
+    }
+
+    .image-container6:hover .overlay {
+        opacity: 1;
+    }
+
+    .image-container6:target img {
+        transform: scale(1.1);
+    }
+
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .image-container {
+        width: 100%;
+        /* Una imagen por fila en dispositivos móviles */
+    }
+
+
+    .image-container img {
+        width: 50%;
+        height: auto;
+        transition: transform 0.3s ease;
+        margin-left: 200px;
+        margin-top: 20px;
+    }
+
+    .image-container .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 50%;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        margin-left: 200px;
+        font-size: 10px;
+    }
+
+    .contenedor p {
+        font-size: 1.5em;
+        /* Tamaño de fuente más pequeño para pantallas más pequeñas */
+
+    }
+
+    .imagenestitulos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+
+    .cuadrotextoimagen img {
+        height: 300px;
+
+    }
+
+    iframe {
+        width: 300px;
+        height: 150px;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: block;
+
+    }
+
+
+    // Tercera imagen de Galería
+
+    .image-container3 {
+        position: relative;
+        width: calc(33.33% - 10px);
+        /* Ancho de cada imagen con un margen entre ellas */
+        margin-bottom: 20px;
+        /* Espacio entre filas */
+    }
+
+    .image-container3 img {
+        width: 450px;
+        height: auto;
+        transition: transform 0.3s ease;
+        margin-left: 160px;
+
+    }
+
+    .image-container3 .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 450px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        margin-left: 160px;
+        font-size: 10px;
+        margin-bottom: -5px;
+    }
+
+    .image-container3:hover .overlay {
+        opacity: 1;
+    }
+
+    .image-container3:target img {
+        transform: scale(1.1);
+    }
+
+
+
+
+
+    .h5youtube {
+        margin-left: 20px;
+
+
+    }
+
+    .image-container5 {
+        position: relative;
+        width: calc(33.33% - 10px);
+        /* Ancho de cada imagen con un margen entre ellas */
+        margin-bottom: 20px;
+        /* Espacio entre filas */
+    }
+
+    .image-container5 img {
+        width: 250px;
+        height: auto;
+        transition: transform 0.3s ease;
+        margin-left: 50px;
+        margin-top: 80px;
+
+    }
+
+    .image-container5 .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 250px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        margin-left: 50px;
+        font-size: 8px;
+        margin-bottom: -12px;
+    }
+
+    .image-container5:hover .overlay {
+        opacity: 1;
+    }
+
+    .image-container5:target img {
+        transform: scale(1.1);
+    }
+
+
+
+    .image-container6 {
+        position: relative;
+        width: calc(33.33% - 10px);
+        /* Ancho de cada imagen con un margen entre ellas */
+        margin-bottom: 20px;
+        /* Espacio entre filas */
+    }
+
+    .image-container6 img {
+        width: 500px;
+        height: auto;
+        transition: transform 0.3s ease;
+        margin-left: 130px;
+        margin-bottom: 120px;
+
+    }
+
+    .image-container6 .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 540px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        margin-left: 110px;
+        font-size: 8px;
+        margin-bottom: 107px;
+    }
+
+    .image-container6:hover .overlay {
+        opacity: 1;
+    }
+
+    .image-container6:target img {
+        transform: scale(1.1);
+    }
+
+
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 426px) {
+    .image-container {
+        width: 100%;
+        /* Una imagen por fila en dispositivos móviles */
+    }
+
+
+    .image-container img {
+        width: 50%;
+        height: auto;
+        transition: transform 0.3s ease;
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+
+    .image-container .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 50%;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        margin-left: 100px;
+        font-size: 10px;
+    }
+
+
+    // Tercera imagen de Galería
+
+    .image-container3 {
+        position: relative;
+        width: calc(33.33% - 10px);
+        /* Ancho de cada imagen con un margen entre ellas */
+        margin-bottom: 20px;
+        /* Espacio entre filas */
+    }
+
+    .image-container3 img {
+        width: 250px;
+        height: auto;
+        transition: transform 0.3s ease;
+        margin-left: 75px;
+
+    }
+
+    .image-container3 .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 250px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        margin-left: 75px;
+        font-size: 8px;
+        margin-bottom: -5px;
+    }
+
+    .image-container3:hover .overlay {
+        opacity: 1;
+    }
+
+    .image-container3:target img {
+        transform: scale(1.1);
+    }
+
+
+    iframe {
+        width: 300px;
+        height: 150px;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: block;
+
+    }
+
+    .h5youtube {
+        margin-left: 16px;
+
+
+    }
+
+    .image-container5 {
+        position: relative;
+        width: calc(33.33% - 10px);
+        /* Ancho de cada imagen con un margen entre ellas */
+        margin-bottom: 20px;
+        /* Espacio entre filas */
+    }
+
+    .image-container5 img {
+        width: 200px;
+        height: auto;
+        transition: transform 0.3s ease;
+        margin-left: 100px;
+        margin-bottom: 100px;
+    }
+
+    .image-container5 .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 200px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        margin-left: 100px;
+        font-size: 8px;
+        margin-bottom: 95px;
+    }
+
+    .image-container5:hover .overlay {
+        opacity: 1;
+    }
+
+    .image-container5:target img {
+        transform: scale(1.1);
+    }
+
+
+
+    .image-container6 {
+        position: relative;
+        width: calc(33.33% - 10px);
+        /* Ancho de cada imagen con un margen entre ellas */
+        margin-bottom: 20px;
+        /* Espacio entre filas */
+    }
+
+    .image-container6 img {
+        width: 250px;
+        height: auto;
+        transition: transform 0.3s ease;
+        margin-left: 80px;
+        margin-bottom: 120px;
+
+    }
+
+    .image-container6 .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 270px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        margin-left: 70px;
+        font-size: 8px;
+        margin-bottom: 114px;
+    }
+
+    .image-container6:hover .overlay {
+        opacity: 1;
+    }
+
+    .image-container6:target img {
+        transform: scale(1.1);
+    }
+
+
+
+}
+
+@media screen and (max-width: 376px) {
+    .image-container {
+        width: 100%;
+        /* Una imagen por fila en dispositivos móviles */
+    }
+
+
+    .image-container img {
+        width: 50%;
+        height: auto;
+        transition: transform 0.3s ease;
+        margin-left: 80px;
+    }
+
+    .image-container .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 50%;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        margin-left: 80px;
+        font-size: 10px;
+        margin-bottom: -12px;
+    }
+
+
+    // Tercera imagen de Galería
+
+    .image-container3 {
+        position: relative;
+        width: calc(33.33% - 10px);
+        /* Ancho de cada imagen con un margen entre ellas */
+        margin-bottom: 20px;
+        /* Espacio entre filas */
+    }
+
+    .image-container3 img {
+        width: 200px;
+        height: auto;
+        transition: transform 0.3s ease;
+        margin-left: 75px;
+
+    }
+
+    .image-container3 .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 200px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        margin-left: 75px;
+        font-size: 8px;
+        margin-bottom: -5px;
+    }
+
+    .image-container3:hover .overlay {
+        opacity: 1;
+    }
+
+    .image-container3:target img {
+        transform: scale(1.1);
+    }
+
+
+
+    iframe {
+        width: 300px;
+        height: 150px;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: block;
+
+    }
+
+    .h5youtube {
+        margin-left: 16px;
+
+
+    }
+
+    .underlined-title {
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        display: inline-block;
+        width: 100%;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+        font-size: 18px;
+    }
+
+    .image-container5 {
+        position: relative;
+        width: calc(33.33% - 10px);
+        /* Ancho de cada imagen con un margen entre ellas */
+        margin-bottom: 20px;
+        /* Espacio entre filas */
+    }
+
+    .image-container5 img {
+        width: 200px;
+        height: auto;
+        transition: transform 0.3s ease;
+        margin-left: 80px;
+        margin-bottom: 100px;
+
+    }
+
+    .image-container5 .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 200px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        margin-left: 80px;
+        font-size: 8px;
+        margin-bottom: 95px;
+    }
+
+    .image-container5:hover .overlay {
+        opacity: 1;
+    }
+
+    .image-container5:target img {
+        transform: scale(1.1);
+    }
+
+
+
+    .image-container6 {
+        position: relative;
+        width: calc(33.33% - 10px);
+        /* Ancho de cada imagen con un margen entre ellas */
+        margin-bottom: 20px;
+        /* Espacio entre filas */
+    }
+
+    .image-container6 img {
+        width: 250px;
+        height: auto;
+        transition: transform 0.3s ease;
+        margin-left: 60px;
+        margin-bottom: 120px;
+
+    }
+
+    .image-container6 .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 270px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        margin-left: 50px;
+        font-size: 8px;
+        margin-bottom: 114px;
+    }
+
+    .image-container6:hover .overlay {
+        opacity: 1;
+    }
+
+    .image-container6:target img {
+        transform: scale(1.1);
+    }
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 321px) {
+    .image-container {
+        width: 100%;
+        /* Una imagen por fila en dispositivos móviles */
+    }
+
+
+    .image-container img {
+        width: 50%;
+        height: auto;
+        transition: transform 0.3s ease;
+        margin-left: 80px;
+    }
+
+    .image-container .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 50%;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        margin-left: 80px;
+        margin-bottom: -12px;
+        font-size: 8px;
+    }
+
+
+
+    .image-container3 {
+        position: relative;
+        width: calc(33.33% - 10px);
+        /* Ancho de cada imagen con un margen entre ellas */
+        margin-bottom: 20px;
+        /* Espacio entre filas */
+    }
+
+    .image-container3 img {
+        width: 200px;
+        height: auto;
+        transition: transform 0.3s ease;
+        margin-left: 60px;
+
+    }
+
+    .image-container3 .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 200px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        margin-left: 60px;
+        font-size: 8px;
+        margin-bottom: -5px;
+    }
+
+    .image-container3:hover .overlay {
+        opacity: 1;
+    }
+
+    .image-container3:target img {
+        transform: scale(1.1);
+    }
+
+
+
+
+
+    iframe {
+        width: 300px;
+        height: 150px;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: block;
+
+    }
+
+    .h5youtube {
+        margin-left: 16px;
+
+
+    }
+
+    .cuadrotextoimagen img {
+        height: 300px;
+
+    }
+
+    .cuadrotextoimagen h3 {
+        font-family: "Bree+Serif", serif;
+        font-size: 22px;
+        margin-bottom: 30px;
+
+
+    }
+
+    .image-container5 {
+        position: relative;
+        width: calc(33.33% - 10px);
+        /* Ancho de cada imagen con un margen entre ellas */
+        margin-bottom: 20px;
+        /* Espacio entre filas */
+    }
+
+    .image-container5 img {
+        width: 200px;
+        height: auto;
+        transition: transform 0.3s ease;
+        margin-left: 60px;
+        margin-bottom: 120px;
+
+    }
+
+    .image-container5 .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 200px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        margin-left: 60px;
+        font-size: 8px;
+        margin-bottom: 110px;
+    }
+
+    .image-container5:hover .overlay {
+        opacity: 1;
+    }
+
+    .image-container5:target img {
+        transform: scale(1.1);
+    }
+
+    // ------------------------------------------------------//
+
+
+    .image-container6 {
+        position: relative;
+        width: calc(33.33% - 10px);
+        /* Ancho de cada imagen con un margen entre ellas */
+        margin-bottom: 20px;
+        /* Espacio entre filas */
+    }
+
+    .image-container6 img {
+        width: 250px;
+        height: auto;
+        transition: transform 0.3s ease;
+        margin-left: 35px;
+        margin-bottom: 120px;
+
+    }
+
+    .image-container6 .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 270px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        margin-left: 25px;
+        font-size: 8px;
+        margin-bottom: 115px;
+    }
+
+    .image-container6:hover .overlay {
+        opacity: 1;
+    }
+
+    .image-container6:target img {
+        transform: scale(1.1);
+    }
+
+
+
+
+}

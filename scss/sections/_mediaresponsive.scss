@@ -1,356 +1,642 @@
-@media (min-width:992px){
+@media (max-width:1441px) {
 
 
-    .parrafomanga{
-        p{
-            margin-left: 80px;
-            margin-right: 80px;
-        }
+    div p {
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 15px;
+
     }
 
-
-        
-    .texto p{
+    .texto p {
         font-family: Asushin;
         font-size: 100px;
         text-align: center;
-        border: solid 4px;
-        width: 280px;
-        margin-left: 600px;
+        border: solid 3px;
+        width: 250px;
+        height: fit-content;
         margin-top: 20px;
-    }    
+        margin-left: 500px;
+        background-image: radial-gradient(circle at 28.97% 59.81%, #c1e1f1 0, #8fbed7 50%, #5b9cbe 100%);
 
-
-.imagenmanga1993 img{
-    &:hover{
-    transform: translateX(190px) scale(200%);
-    transition: 0.3s;
-}
-}
-
-
-}
-
-.imagen1993-2{
-    width: 350px;
-    border: solid;
-
-}
-
-@media (max-width:1025px){
-
-    .imagen1993-2{
-        margin-left: 100px;
-                
-    }
-    
-    .pi93{
-        margin-left: 100px;
     }
 
-
-    .portada{
-        height: 275px;
-        margin-right: 10px;
-      }
-
-
-}
-
-
-
-
-
-
-
-@media (max-width:991px){
-
-
-
-    
-.texto p{
-    font-family: Asushin;
-    font-size: 70px;
-    text-align: center;
-    border: solid 4px;
-    width: 180px;
-    margin-left: 100px;
-    margin-top: 20px;
-}    
-
-
-.titulohistoria{
-
-    margin-right: 20px;
-}
-
-.cuadroimagenesgrid{
-
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    align-items: center;
-    justify-items: center;
-    align-content: center;
-    font-family: sans-serif;
-    
-
-}
-
-.resumeneventos{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    }
-
-    .imagen1993{
-        width: 350px;
-        
-    
-    }
-
-    .imagen1993{
-        &:hover{
-        transform: scale(110%);
-        transition: 0.3s;
-    }
-    }
-}
-
-.flex-container{
-    display: flex;
-    border: black;
-    flex-direction: column ;
-    justify-content: space-between;
-    align-items: center;
-    
-}
-.imagen1993-2{
-    width: 350px;
-    border: solid;
-
-}
-
-.imagenanime1{
-    width: 400px;
-    margin-left: 80px;
-}
-
-.imagenanime1{
-    &:hover{
-    transform: scale(110%);
-    transition: 0.3s;
-}
-}
-
-.imagencar1{
-    width:  50%;
-    height: 50%;
-    margin-left: 300px;
-}
-
-.imagencar2{
-    width: 50%;
-    height: 50%;
-    margin-left: 300px;
-}
-
-.imagencar3{
-    width: 50%;
-    height: 50%;
-    margin-left: 300px;
-
-    .imagen2{
-        width:  350px;
-        height: 350px;
-        border: solid;
-    }
-}
-
-
-
-
-
-@media (max-width:768px){
-
-        /* Tamaño segunda imagen */
-        .imagen2{
-            width:  350px;
-             height: 350px;
-            border: solid;
-             margin-left: 30px;
-        }  
-
-
-    .imagencar1{
-        width:  50%;
-        height: 50%;
-        margin-left: 170px;
-    }
-    
-    .imagencar2{
-        width: 50%;
-        height: 50%;
-        margin-left: 170px;
-    }
-    
-    .imagencar3{
-        width: 50%;
-        height: 50%;
-        margin-left: 170px;
-    }
-
-    .imagen1993-2{
-        margin-left: 170px;
-                
-    }
-    
-    .pi93{
-        margin-left: 150px;
-    }
-
-    .imagenanime1{
-        width: 300px;
-        margin-left: 180px;
-    }
-    
-    .imagenanime1{
-        &:hover{
-        transform: scale(110%);
-        transition: 0.3s;
-    }
-    }
-
-    .portada{
+    .indeximg {
         height: 400px;
-        margin-right: 10px;
-      }
+        margin-left: 320px;
+    }
 
-    
+    .logoeva {
+        width: 450px;
+        margin-left: 280px;
+    }
+
+    .shinjisolo {
+        width: 300px;
+        margin-left: 150px;
+        margin-top: 20px;
+    }
+
+    .animeasuka {
+        width: 300px;
+        margin-left: 150px;
+        margin-top: 20px;
+    }
+
+    .batallashinjiasu {
+        width: 500px;
+        margin-left: 250px;
+    }
+
+    .shinjiasuka {
+        width: 500px;
+        margin-left: 250px;
+        margin-top: 20px;
+    }
+
+    .parrafoindex {
+        margin-top: 20px;
+    }
+
+    // media responsive del footer //
+
+    .parrafofooter {
+        color: $letrasblancas;
+        text-align: center;
+
+    }
+
+    .textofooter {
+
+        font-family: Asushin;
+        font-size: 60px;
+        text-align: center;
+        border: solid 3px;
+        width: 130px;
+        height: fit-content;
+        margin-top: 20px;
+        margin-left: 70px;
+        background-image: radial-gradient(circle at 28.97% 59.81%, #c1e1f1 0, #8fbed7 50%, #5b9cbe 100%);
+
+
+    }
+
+    .social-icons img {
+
+        width: 25px;
+        /* Establece el mismo ancho para todos los íconos */
+        height: 25px;
+        /* Establece la misma altura para todos los íconos */
+        margin-left: 70px;
+        align-items: center;
+    }
+
+    .h2text {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .parrafofooter {
+        color: $letrasblancas;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
 }
 
 
-@media (max-width:426px){
 
 
-    .imagenanime1{
+
+
+
+
+
+@media (max-width:1024px) {
+
+
+    .imagenanime1 {
         width: 300px;
         margin-left: 50px;
     }
-    
-    .imagenanime1{
-        &:hover{
-        transform: scale(110%);
-        transition: 0.3s;
-    }
+
+    .imagenanime1 {
+        &:hover {
+            transform: scale(110%);
+            transition: 0.3s;
+        }
     }
 
 
-    .imagencar1{
-        width:  50%;
-        height: 50%;
-        margin-left: 100px;
-    }
-    
-    .imagencar2{
-        width: 50%;
-        height: 50%;
-        margin-left: 100px;
-    }
-    
-    .imagencar3{
+    .imagencar1 {
         width: 50%;
         height: 50%;
         margin-left: 100px;
     }
 
-    .imagen1993-2{
+    .imagencar2 {
+        width: 50%;
+        height: 50%;
+        margin-left: 100px;
+    }
+
+    .imagencar3 {
+        width: 50%;
+        height: 50%;
+        margin-left: 100px;
+    }
+
+    .imagen1993-2 {
         margin-left: 55px;
-        width: 75%;        
+        width: 75%;
     }
-    
-    .pi93{
+
+    .pi93 {
         margin-left: 30px;
     }
-    .portada{
+
+    .portada {
         height: 220px;
         margin-right: 10px;
-      }
-                
-    } /* Tamaño primera imagen */
-    .imagen1{
-        width:  350px;
-        height: 350px;
-        border: solid;
-        margin-left: 30px;
-    
     }
-    
 
 
-    .texto p{
+
+    div p {
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 13px;
+
+    }
+
+    .texto p {
         font-family: Asushin;
-        font-size: 70px;
+        font-size: 100px;
         text-align: center;
-        border: solid 4px;
-        width: 180px;
-        margin-left: 120px;
+        border: solid 3px;
+        width: 250px;
+        height: fit-content;
         margin-top: 20px;
-    }  
+        margin-left: 400px;
+        background-image: radial-gradient(circle at 28.97% 59.81%, #c1e1f1 0, #8fbed7 50%, #5b9cbe 100%);
 
-    .parrafolinks{
+    }
 
-        margin-left: 125px;
+    .indeximg {
+        height: 300px;
+        margin-left: 330px;
+    }
 
+    .logoeva {
+        width: 450px;
+        margin-left: 250px;
+    }
+
+    .shinjisolo {
+        width: 300px;
+        margin-left: 78px;
+        margin-top: 20px;
+    }
+
+    .animeasuka {
+        width: 300px;
+        margin-left: 78px;
+        margin-top: 20px;
+    }
+
+    .batallashinjiasu {
+        width: 500px;
+        margin-left: 200px;
+    }
+
+    .shinjiasuka {
+        width: 500px;
+        margin-left: 200px;
+        margin-top: 20px;
+    }
+
+    .parrafoindex {
+        margin-top: 20px;
+    }
+
+    // media responsive del footer //
+
+    .parrafofooter {
+        color: $letrasblancas;
+        text-align: center;
+
+    }
+
+    .textofooter {
+
+        font-family: Asushin;
+        font-size: 60px;
+        text-align: center;
+        border: solid 3px;
+        width: 130px;
+        height: fit-content;
+        margin-top: 20px;
+        margin-left: 137px;
+        background-image: radial-gradient(circle at 28.97% 59.81%, #c1e1f1 0, #8fbed7 50%, #5b9cbe 100%);
+
+
+    }
+
+    .social-icons img {
+
+        width: 15px;
+        /* Establece el mismo ancho para todos los íconos */
+        height: 15px;
+        /* Establece la misma altura para todos los íconos */
+        margin-left: 65px;
+        align-items: center;
+    }
+
+    .h2text {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:991px) {
+
+
+
+    .cuadroimagenesgrid {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+        font-family: sans-serif;
+
+
+    }
+
+    .resumeneventos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .imagen1993 {
+        width: 350px;
+
+
+    }
+
+    .imagen1993 {
+        &:hover {
+            transform: scale(110%);
+            transition: 0.3s;
         }
-    
-        .parrafolinks{
-            list-style-type: none;
+    }
+
+
+    .flex-container {
+        display: flex;
+        border: black;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .imagen1993-2 {
+        width: 350px;
+        border: solid;
+
+    }
+
+    .imagenanime1 {
+        width: 400px;
+        margin-left: 80px;
+    }
+
+    .imagenanime1 {
+        &:hover {
+            transform: scale(110%);
+            transition: 0.3s;
+        }
+    }
+
+    .imagencar1 {
+        width: 50%;
+        height: 50%;
+        margin-left: 300px;
+    }
+
+    .imagencar2 {
+        width: 50%;
+        height: 50%;
+        margin-left: 300px;
+    }
+
+    .imagencar3 {
+        width: 50%;
+        height: 50%;
+        margin-left: 300px;
+
+        .imagen2 {
+            width: 350px;
+            height: 350px;
             border: solid;
-            width: 180px;
-            margin-left: 109px;
-            margin-top: 20px;
-            
-            
         }
 
 
-@media (max-width:376px){
+
+    }
+}
 
 
-    .imagencar1{
-        width:  50%;
-        height: 50%;
+
+
+
+
+@media (max-width:769px) {
+
+    .texto p {
+        font-family: Asushin;
+        font-size: 60px;
+        text-align: center;
+        border: solid 3px;
+        width: 130px;
+        height: fit-content;
+        margin-top: 20px;
+        margin-left: 310px;
+        background-image: radial-gradient(circle at 28.97% 59.81%, #c1e1f1 0, #8fbed7 50%, #5b9cbe 100%);
+
+    }
+
+    .indeximg {
+        height: 280px;
+        margin-left: 200px;
+    }
+
+    .logoeva {
+        margin-top: 20px;
+        width: 200px;
+        margin-left: 80px;
+    }
+
+    .shinjisolo {
+        width: 300px;
+        margin-left: 10px;
+    }
+
+    .animeasuka {
+        width: 300px;
+        margin-left: 10px;
+    }
+
+    .batallashinjiasu {
+        width: 300px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .shinjiasuka {
+        width: 500px;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+
+    .textofooter {
+
+        font-family: Asushin;
+        font-size: 50px;
+        text-align: center;
+        border: solid 3px;
+        width: 110px;
+        height: fit-content;
+        background-image: radial-gradient(circle at 28.97% 59.81%, #c1e1f1 0, #8fbed7 50%, #5b9cbe 100%);
+        margin-left: -2px;
+
+    }
+
+    .parrafofooter {
+        color: $letrasblancas;
+        width: fit-content;
+
+    }
+
+    .social-icons img {
+
+        width: 15px;
+        /* Establece el mismo ancho para todos los íconos */
+        height: 15px;
+        /* Establece la misma altura para todos los íconos */
+        margin-left: 40px;
+    }
+
+
+}
+
+@media (max-width:426px) {
+
+
+    .texto p {
+        font-family: Asushin;
+        font-size: 60px;
+        text-align: center;
+        border: solid 3px;
+        width: 130px;
+        height: fit-content;
+        margin-top: 20px;
+        margin-left: 150px;
+        background-image: radial-gradient(circle at 28.97% 59.81%, #c1e1f1 0, #8fbed7 50%, #5b9cbe 100%);
+
+    }
+
+    .textofooter {
+
+        font-family: Asushin;
+        font-size: 60px;
+        text-align: center;
+        border: solid 3px;
+        width: 130px;
+        height: fit-content;
+        margin-top: 20px;
+        margin-left: 137px;
+        background-image: radial-gradient(circle at 28.97% 59.81%, #c1e1f1 0, #8fbed7 50%, #5b9cbe 100%);
+
+
+    }
+
+
+    .indeximg {
+        height: 250px;
+        margin-left: 80px;
+    }
+
+
+    .social-icons img {
+
+        width: 20px;
+        /* Establece el mismo ancho para todos los íconos */
+        height: 20px;
+        /* Establece la misma altura para todos los íconos */
+        margin-left: 80px;
+    }
+
+    .h2text {
+        font-size: 15px;
+    }
+
+    .texto p {
+        font-family: Asushin;
+        font-size: 45px;
+        text-align: center;
+        border: solid 3px;
+        width: 120px;
+        height: fit-content;
+        margin-top: 20px;
+        margin-left: 150px;
+        background-image: radial-gradient(circle at 28.97% 59.81%, #c1e1f1 0, #8fbed7 50%, #5b9cbe 100%);
+
+    }
+
+    .indeximg {
+        height: 250px;
+        margin-left: 80px;
+    }
+
+    .logoeva {
+        width: 200px;
         margin-left: 100px;
     }
-    
-    .imagencar2{
-        width: 50%;
-        height: 50%;
-        margin-left: 100px;
-    }
-    
-    .imagencar3{
-        width: 50%;
-        height: 50%;
-        margin-left: 100px;
-    }
 
-
-    .imagen1993-2{
+    .shinjisolo {
+        width: 300px;
         margin-left: 55px;
-        width: 70%;        
     }
-    
-    .pi93{
+
+    .animeasuka {
+        width: 300px;
+        margin-left: 55px;
+    }
+
+    .batallashinjiasu {
+        width: 300px;
+        margin-left: 40px;
+    }
+
+    .shinjiasuka {
+        width: 300px;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+
+    .parrafoindex {
+        margin-top: 20px;
+    }
+
+    // media responsive del footer //
+
+    .parrafofooter {
+        color: $letrasblancas;
+        text-align: center;
+
+    }
+
+    .textofooter {
+
+        font-family: Asushin;
+        font-size: 40px;
+        text-align: center;
+        border: solid 3px;
+        width: 110px;
+        height: fit-content;
+        margin-top: 20px;
+        margin-left: 150px;
+        background-image: radial-gradient(circle at 28.97% 59.81%, #c1e1f1 0, #8fbed7 50%, #5b9cbe 100%);
+
+
+    }
+
+
+
+    .social-icons img {
+
+        width: 30px;
+        /* Establece el mismo ancho para todos los íconos */
+        height: 30px;
+        /* Establece la misma altura para todos los íconos */
+        margin-left: 77px;
+        margin-bottom: 20px;
+
+
+    }
+
+
+
+
+
+
+
+}
+
+
+
+@media (max-width:376px) {
+
+    .imagencar1 {
+        width: 50%;
+        height: 50%;
+        margin-left: 100px;
+    }
+
+    .imagencar2 {
+        width: 50%;
+        height: 50%;
+        margin-left: 100px;
+    }
+
+    .imagencar3 {
+        width: 50%;
+        height: 50%;
+        margin-left: 100px;
+    }
+
+
+    .imagen1993-2 {
+        margin-left: 55px;
+        width: 70%;
+    }
+
+    .pi93 {
         margin-left: 30px;
     }
 
-    .portada{
+    .portada {
         height: 200px;
         margin-right: 10px;
-      }
+    }
 
-      .imagenanime1{
+    .imagenanime1 {
         width: 250px;
         margin-left: 50px;
         margin-top: 5px;
@@ -360,52 +646,181 @@
     div p {
         font-weight: bold;
         text-decoration: none;
-        font-size: 15px;
-    
-    } /* Tamaño primera imagen */
-    .imagen1{
-        width:  250px;
-        height: 250px;
-        border: solid;
-        margin-left: 40px;
-    
+        font-size: 13px;
+
     }
-    
-    /* Tamaño segunda imagen */
-    .imagen2{
-        width:  250px;
-        height: 250px;
-        border: solid;
-        margin-left: 40px;
-        margin-top: 20px;
-    }   
-    .footer{
-            font-size: 5px;
-    }
-    .texto p{
+
+    .texto p {
         font-family: Asushin;
-        font-size: 70px;
+        font-size: 45px;
         text-align: center;
-        border: solid 4px;
-        width: 180px;
-        margin-left: 90px;
+        border: solid 3px;
+        width: 120px;
+        height: fit-content;
         margin-top: 20px;
-    }  
-
-    .parrafolinks{
-
         margin-left: 125px;
+        background-image: radial-gradient(circle at 28.97% 59.81%, #c1e1f1 0, #8fbed7 50%, #5b9cbe 100%);
 
-        }
-    
-        .parrafolinks{
-            list-style-type: none;
-            border: solid;
-            width: 180px;
-            margin-left: 80px;
-            margin-top: 20px;
-            
-            
-        }
+    }
+
+    .indeximg {
+        height: 180px;
+        margin-left: 80px;
+    }
+
+    .logoeva {
+        width: 180px;
+        margin-left: 80px;
+    }
+
+    .shinjisolo {
+        width: 200px;
+        margin-left: 75px;
+    }
+
+    .animeasuka {
+        width: 200px;
+        margin-left: 75px;
+    }
+
+    .batallashinjiasu {
+        width: 200px;
+        margin-left: 60px;
+    }
+
+    .shinjiasuka {
+        width: 200px;
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+
+    .parrafoindex {
+        margin-top: 20px;
+    }
+
+    // media responsive del footer //
+
+    .parrafofooter {
+        color: $letrasblancas;
+        text-align: center;
+
+    }
+
+    .textofooter {
+
+        font-family: Asushin;
+        font-size: 40px;
+        text-align: center;
+        border: solid 3px;
+        width: 110px;
+        height: fit-content;
+        margin-top: 20px;
+        margin-left: 125px;
+        background-image: radial-gradient(circle at 28.97% 59.81%, #c1e1f1 0, #8fbed7 50%, #5b9cbe 100%);
+
+
+    }
+
+
+
+    .social-icons img {
+
+        width: 30px;
+        /* Establece el mismo ancho para todos los íconos */
+        height: 30px;
+        /* Establece la misma altura para todos los íconos */
+        margin-left: 65px;
+
+
+
+    }
+
+}
+
+@media (max-width:321px) {
+
+    .texto p {
+        font-family: Asushin;
+        font-size: 45px;
+        text-align: center;
+        border: solid 3px;
+        width: 120px;
+        height: fit-content;
+        margin-top: 20px;
+        margin-left: 100px;
+        background-image: radial-gradient(circle at 28.97% 59.81%, #c1e1f1 0, #8fbed7 50%, #5b9cbe 100%);
+
+    }
+
+    .indeximg {
+        height: 200px;
+        margin-left: 50px;
+    }
+
+
+    .logoeva {
+        width: 150px;
+        margin-left: 70px;
+    }
+
+    .shinjisolo {
+        width: 200px;
+        margin-left: 45px;
+    }
+
+    .animeasuka {
+        width: 200px;
+        margin-left: 45px;
+    }
+
+    .batallashinjiasu {
+        width: 200px;
+        margin-left: 35px;
+    }
+
+    .shinjiasuka {
+        width: 200px;
+        margin-left: 35px;
+        margin-top: 20px;
+    }
+
+    .parrafoindex {
+        margin-top: 20px;
+    }
+
+    // media responsive del footer //
+
+    .parrafofooter {
+        color: $letrasblancas;
+        text-align: center;
+
+    }
+
+
+    .textofooter {
+
+        font-family: Asushin;
+        font-size: 40px;
+        text-align: center;
+        border: solid 3px;
+        width: 110px;
+        height: fit-content;
+        margin-top: 20px;
+        margin-left: 100px;
+        background-image: radial-gradient(circle at 28.97% 59.81%, #c1e1f1 0, #8fbed7 50%, #5b9cbe 100%);
+
+
+    }
+
+
+    .social-icons img {
+
+        width: 30px;
+        /* Establece el mismo ancho para todos los íconos */
+        height: 30px;
+        /* Establece la misma altura para todos los íconos */
+        margin-left: 50px;
+
+    }
 
 }
